@@ -13,19 +13,19 @@ from uedge import *
 
 # Set the geometry
 bbb.mhdgeo = 1 		        #=1 use MHD equilibrium files
-#flx.aeqdskfname = "aeqdskd3d"   #name of EFIT 'a' file for flux-surface mesh
-#flx.geqdskfname = "neqdskd3d"   #name of EFIT 'g' or 'n' file for flux-sur mesh
-flx.psi0min1 = 0.98		#normalized flux on core bndry
-flx.psi0min2 = 0.98		#normalized flux on pf bndry
+#flx.aeqdskfname = "aeqdsk"   #name of EFIT 'a' file for flux-surface mesh
+#flx.geqdskfname = "neqdsk"   #name of EFIT 'g' or 'n' file for flux-sur mesh
+flx.psi0min1 = 0.95		#normalized flux on core bndry
+flx.psi0min2 = 0.992		#normalized flux on pf bndry
 flx.psi0sep = 1.00001	        #normalized flux at separatrix
 flx.psi0max = 1.07		#normalized flux on outer wall bndry
 bbb.ngrid = 1		        #number of mesh sequenc. (always set to 1)
-com.nxleg[0,0] = 4		#pol. mesh pts from inner plate to x-point
-com.nxcore[0,0] = 4		#pol. mesh pts from x-point to top on inside
-com.nxcore[0,1] = 4		#pol. mesh pts from top to x-point on outside
-com.nxleg[0,1] = 4		#pol. mesh pts from x-point to outer plate
-com.nysol[0] = 6		#rad. mesh pts in SOL
-com.nycore[0] = 2		#rad. mesh pts in core
+com.nxleg[0,0] = 25		#pol. mesh pts from inner plate to x-point
+com.nxcore[0,0] = 25		#pol. mesh pts from x-point to top on inside
+com.nxcore[0,1] = 25		#pol. mesh pts from top to x-point on outside
+com.nxleg[0,1] = 25		#pol. mesh pts from x-point to outer plate
+com.nysol[0] = 12		#rad. mesh pts in SOL
+com.nycore[0] = 5		#rad. mesh pts in core
 
 # Finite-difference algorithms (upwind, central diff, etc.)
 bbb.methn = 33		#ion continuty eqn
