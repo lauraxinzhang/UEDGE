@@ -13,6 +13,7 @@ from uedge import *
 
 # Set the geometry
 bbb.mhdgeo = 1 		        #=1 use MHD equilibrium files
+com.geometry = "dnull"
 #flx.aeqdskfname = "aeqdsk"   #name of EFIT 'a' file for flux-surface mesh
 #flx.geqdskfname = "neqdsk"   #name of EFIT 'g' or 'n' file for flux-sur mesh
 flx.psi0min1 = 0.95		#normalized flux on core bndry
@@ -35,23 +36,23 @@ bbb.methi = 33		#ion energy eqn
 bbb.methg = 33		#neutral gas continuity eqn
 
 # Boundary conditions
-bbb.ncore[0] = 2.5e19	#hydrogen ion density on core
+bbb.ncore[0] = 7.7e18	#hydrogen ion density on core
 ##	iflcore = 0	 #flag; =0, fixed Te,i; =1, fixed power on core
-bbb.tcoree = 100.	#core Te
-bbb.tcorei = 100.	#core Ti
+bbb.tcoree = 41.043	#core Te
+bbb.tcorei = 5.   	#core Ti
 bbb.tedge = 2.		#fixed wall,pf Te,i if istewcon=1, etc
 bbb.recycp[0] = 0.8	#hydrogen recycling coeff at plates
 
 # Transport coefficients (m**2/s)
 bbb.difni[0] = 1.	#D for radial hydrogen diffusion
-bbb.kye = 1.		#chi_e for radial elec energy diffusion
-bbb.kyi = 1.		#chi_i for radial ion energy diffusion
+bbb.kye = 42.36		#chi_e for radial elec energy diffusion
+bbb.kyi = 5.    	#chi_i for radial ion energy diffusion
 bbb.travis[0] = 1.	#eta_a for radial ion momentum diffusion
 
 # Flux limits
 bbb.flalfe = 0.21       #electron parallel thermal conduct. coeff
 bbb.flalfi = 0.21	#ion parallel thermal conduct. coeff
-bbb.flalfv = 1.		#ion parallel viscosity coeff
+bbb.flalfv = .5		#ion parallel viscosity coeff
 bbb.flalfgx = 1.e20	#neut. gas in poloidal direction
 bbb.flalfgy = 1.e20	#neut. gas in radial direction
 
