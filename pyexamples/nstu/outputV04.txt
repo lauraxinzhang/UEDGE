@@ -1,0 +1,2629 @@
+Forthon edition
+ 
+***  alfcy has been re-defined  ***
+ 
+ 
+ 
+***  alfcy has been re-defined  ***
+ 
+ 
+ UEDGE $Name: V7_08_03 $                                                               
+     alfcy =   2.909248E+00
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ ***** Grid generation has been completed
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      245.5221750293063     nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+     alfcy =   2.909248E+00
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ ***** Grid generation has been completed
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      245.4018661974103     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5371244024315360E-04 nfe=      3
+ iter=    2 fnrm=     0.2121468171276501E-05 nfe=      6
+ iter=    3 fnrm=     0.2121468167639354E-05 nfe=      8
+ iter=    4 fnrm=     0.2121468167639354E-05 nfe=     10
+ iter=    5 fnrm=     0.2121468167639354E-05 nfe=     12
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.2121468167639354E-05 nfe=     14
+ iter=    7 fnrm=     0.2121468167639354E-05 nfe=     16
+ iter=    8 fnrm=     0.2121468167639354E-05 nfe=     18
+ iter=    9 fnrm=     0.2121468167639354E-05 nfe=     20
+ iter=   10 fnrm=     0.2121468167639354E-05 nfe=     22
+  Updating Jacobian, npe =                      4
+ iter=   11 fnrm=     0.2121468167639354E-05 nfe=     24
+ iter=   12 fnrm=     0.2121468167639354E-05 nfe=     26
+ iter=   13 fnrm=     0.2121468167639354E-05 nfe=     28
+ iter=   14 fnrm=     0.2121468167639354E-05 nfe=     30
+ iter=   15 fnrm=     0.2121468167639354E-05 nfe=     32
+  Updating Jacobian, npe =                      5
+ iter=   16 fnrm=     0.2121468167639354E-05 nfe=     34
+ iter=   17 fnrm=     0.2121468167639354E-05 nfe=     36
+ iter=   18 fnrm=     0.2121468167639354E-05 nfe=     38
+ iter=   19 fnrm=     0.2121468167639354E-05 nfe=     40
+ iter=   20 fnrm=     0.2121468167639354E-05 nfe=     42
+  Updating Jacobian, npe =                      6
+ iter=   21 fnrm=     0.2121468167639354E-05 nfe=     44
+ iter=   22 fnrm=     0.2121468167639354E-05 nfe=     46
+ iter=   23 fnrm=     0.2121468167639354E-05 nfe=     48
+ iter=   24 fnrm=     0.2121468167639354E-05 nfe=     50
+ iter=   25 fnrm=     0.2121468167639354E-05 nfe=     52
+  Updating Jacobian, npe =                      7
+ iter=   26 fnrm=     0.2121468167639354E-05 nfe=     54
+ iter=   27 fnrm=     0.2121468167639354E-05 nfe=     56
+ iter=   28 fnrm=     0.2121468167639354E-05 nfe=     58
+ iter=   29 fnrm=     0.2121468167639354E-05 nfe=     60
+ iter=   30 fnrm=     0.2121468167639354E-05 nfe=     62
+  Updating Jacobian, npe =                      8
+ iter=   31 fnrm=     0.2121468167639354E-05 nfe=     64
+ iter=   32 fnrm=     0.2121468167639354E-05 nfe=     66
+ iter=   33 fnrm=     0.2121468167639354E-05 nfe=     68
+ iter=   34 fnrm=     0.2121468167639354E-05 nfe=     70
+ iter=   35 fnrm=     0.2121468167639354E-05 nfe=     72
+  Updating Jacobian, npe =                      9
+ iter=   36 fnrm=     0.2121468167639354E-05 nfe=     74
+ iter=   37 fnrm=     0.2121468167639354E-05 nfe=     76
+ iter=   38 fnrm=     0.2121468167639354E-05 nfe=     78
+ iter=   39 fnrm=     0.2121468167639354E-05 nfe=     80
+ iter=   40 fnrm=     0.2121468167639354E-05 nfe=     82
+  Updating Jacobian, npe =                     10
+ iter=   41 fnrm=     0.2121468167639354E-05 nfe=     84
+ iter=   42 fnrm=     0.2121468167639354E-05 nfe=     86
+ iter=   43 fnrm=     0.2121468167639354E-05 nfe=     88
+ iter=   44 fnrm=     0.2121468167639354E-05 nfe=     90
+ iter=   45 fnrm=     0.2121468167639354E-05 nfe=     92
+  Updating Jacobian, npe =                     11
+ 
+***  alfcy has been re-defined  ***
+ 
+ 
+ iter=   46 fnrm=     0.2121468167639354E-05 nfe=     94
+ iter=   47 fnrm=     0.2121468167639354E-05 nfe=     96
+ iter=   48 fnrm=     0.2121468167639354E-05 nfe=     98
+ iter=   49 fnrm=     0.2121468167639354E-05 nfe=    100
+ iter=   50 fnrm=     0.2121468167639354E-05 nfe=    102
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes =  1  and dt = 0.100E-09 sec
+ ----------------------------------------------------
+  
+*** Number time-step changes =  2  and dt = 0.100E-09 sec
+ ----------------------------------------------------
+     alfcy =   2.909248E+00
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ ***** Grid generation has been completed
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      245.4018661974103     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.6497275924779056E-02 nfe=      3
+ iter=    2 fnrm=     0.1689551428811233E-03 nfe=      6
+ iter=    3 fnrm=     0.1043385896253272E-05 nfe=     10
+ iter=    4 fnrm=     0.4862453573981636E-09 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.245E+03
+Number of func eval =  15 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=      245.2339582672929     nfe=      1
+ iter=    1 fnrm=     0.3165898570909851E-01 nfe=      4
+ iter=    2 fnrm=     0.5539382725536128E-05 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.245E+03
+Number of func eval =   9 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      245.1013966176870     nfe=      1
+ iter=    1 fnrm=     0.4639495381162611E-01 nfe=      4
+ iter=    2 fnrm=     0.1641020335853394E-04 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.245E+03
+Number of func eval =   9 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      244.9760476275110     nfe=      1
+ iter=    1 fnrm=     0.5355077636716520E-01 nfe=      4
+ iter=    2 fnrm=     0.2308803906214269E-04 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.245E+03
+Number of func eval =   9 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      244.8531876601295     nfe=      1
+ iter=    1 fnrm=     0.5068728507529869E-01 nfe=      4
+ iter=    2 fnrm=     0.1767290625777400E-04 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.245E+03
+Number of func eval =   9 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes =  3  and dt = 0.300E-09 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      236.2869043544406     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5715653120732831E-02 nfe=      3
+ iter=    2 fnrm=     0.2942652169650277E-06 nfe=      6
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.236E+03
+Number of func eval =   6 ; nonlin iters =   2 ; precondJac eval =   1
+ iter=    0 fnrm=      235.9443365213401     nfe=      1
+ iter=    1 fnrm=     0.8057295100449174E-02 nfe=      4
+ iter=    2 fnrm=     0.1671358877839466E-05 nfe=      7
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.236E+03
+Number of func eval =   7 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      235.6107523049179     nfe=      1
+ iter=    1 fnrm=     0.1548437867165254E-01 nfe=      4
+ iter=    2 fnrm=     0.1227050025637364E-04 nfe=      7
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.235E+03
+Number of func eval =   7 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      235.2858674727549     nfe=      1
+ iter=    1 fnrm=     0.2943068957800508E-01 nfe=      4
+ iter=    2 fnrm=     0.2015151355016954E-05 nfe=      8
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.235E+03
+Number of func eval =   8 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      234.9695159586470     nfe=      1
+ iter=    1 fnrm=     0.4814271562925264E-01 nfe=      4
+ iter=    2 fnrm=     0.1090071881396168E-04 nfe=      8
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.235E+03
+Number of func eval =   8 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes =  4  and dt = 0.102E-08 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      214.5465626069194     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.4282021657683779E-01 nfe=      3
+ iter=    2 fnrm=     0.3317617141583244E-04 nfe=      6
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.214E+03
+Number of func eval =   6 ; nonlin iters =   2 ; precondJac eval =   1
+ iter=    0 fnrm=      213.6679911889009     nfe=      1
+ iter=    1 fnrm=     0.5210901961069810E-01 nfe=      4
+ iter=    2 fnrm=     0.2675678361835032E-04 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.213E+03
+Number of func eval =   9 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      212.8667899335506     nfe=      1
+ iter=    1 fnrm=     0.3752663346536465E-01 nfe=      5
+ iter=    2 fnrm=     0.3348075719500402E-04 nfe=     10
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.212E+03
+Number of func eval =  10 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      212.1374853118188     nfe=      1
+ iter=    1 fnrm=     0.8578801929854377E-01 nfe=      5
+ iter=    2 fnrm=     0.6475943530631707E-04 nfe=     11
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.211E+03
+Number of func eval =  11 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      211.4746995139782     nfe=      1
+ iter=    1 fnrm=     0.1831380825229778     nfe=      5
+ iter=    2 fnrm=     0.1482183495287346E-03 nfe=     12
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.211E+03
+Number of func eval =  12 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes =  5  and dt = 0.347E-08 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      174.2081888739993     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      90.86032125832529     nfe=      3
+ iter=    2 fnrm=     0.6687648315269279E-01 nfe=      5
+ iter=    3 fnrm=     0.1674779442628025E-03 nfe=     10
+ iter=    4 fnrm=     0.3182883441993719E-07 nfe=     16
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.173E+03
+Number of func eval =  16 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=      172.9495854682191     nfe=      1
+ iter=    1 fnrm=      66.44830071119580     nfe=      5
+ iter=    2 fnrm=     0.1547904758914422E-01 nfe=      9
+ iter=    3 fnrm=     0.3264276779785448E-05 nfe=     16
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.172E+03
+Number of func eval =  16 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      172.0363060270938     nfe=      1
+ iter=    1 fnrm=      30.09083193677479     nfe=      6
+ iter=    2 fnrm=     0.8627798489346066E-02 nfe=     11
+ iter=    3 fnrm=     0.4326005664690483E-05 nfe=     19
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.171E+03
+Number of func eval =  19 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      171.3816674019075     nfe=      1
+ iter=    1 fnrm=     0.1545013122587408     nfe=      6
+ iter=    2 fnrm=     0.9397539957883654E-04 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.171E+03
+Number of func eval =  15 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      170.9197869036045     nfe=      1
+ iter=    1 fnrm=     0.1095012599053566     nfe=      7
+ iter=    2 fnrm=     0.1009145879115504E-03 nfe=     17
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.171E+03
+Number of func eval =  17 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes =  6  and dt = 0.118E-07 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      140.6054573192627     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      78.43204022607939     nfe=      3
+ iter=    2 fnrm=     0.2134876812261146E-01 nfe=      5
+ iter=    3 fnrm=     0.1188230268465323E-04 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.140E+03
+Number of func eval =   9 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=      140.3381925880103     nfe=      1
+ iter=    1 fnrm=      24.79760524602326     nfe=      5
+ iter=    2 fnrm=     0.9693895547788659E-02 nfe=      9
+ iter=    3 fnrm=     0.6200493054554903E-05 nfe=     14
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.140E+03
+Number of func eval =  14 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      140.3560156541029     nfe=      1
+ iter=    1 fnrm=     0.3674934411283603E-01 nfe=      6
+ iter=    2 fnrm=     0.1374057286926059E-04 nfe=     13
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.140E+03
+Number of func eval =  13 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      140.4937975180143     nfe=      1
+ iter=    1 fnrm=     0.7948284437889411E-01 nfe=      6
+ iter=    2 fnrm=     0.7657434092797963E-04 nfe=     13
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.141E+03
+Number of func eval =  13 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      140.6732382731255     nfe=      1
+ iter=    1 fnrm=     0.6638047582651734E-01 nfe=      7
+ iter=    2 fnrm=     0.5326246736356096E-04 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.141E+03
+Number of func eval =  15 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes =  7  and dt = 0.401E-07 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      138.2080687117693     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      48.95770078254286     nfe=      3
+ iter=    2 fnrm=     0.1273128086538508E-01 nfe=      6
+ iter=    3 fnrm=     0.4347144866832732E-05 nfe=     10
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.138E+03
+Number of func eval =  10 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=      138.3550856386082     nfe=      1
+ iter=    1 fnrm=      14.20771219825890     nfe=      5
+ iter=    2 fnrm=     0.5038219802490520E-02 nfe=      9
+ iter=    3 fnrm=     0.5229745466510724E-06 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.138E+03
+Number of func eval =  15 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      137.9606458096469     nfe=      1
+ iter=    1 fnrm=     0.1025909804987469     nfe=      6
+ iter=    2 fnrm=     0.8354510696866168E-04 nfe=     13
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.137E+03
+Number of func eval =  13 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      136.9135894731497     nfe=      1
+ iter=    1 fnrm=     0.1590679199445044     nfe=      6
+ iter=    2 fnrm=     0.1389473072131246E-03 nfe=     14
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.135E+03
+Number of func eval =  14 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=      135.1467029109634     nfe=      1
+ iter=    1 fnrm=     0.9291585384327848E-01 nfe=      7
+ iter=    2 fnrm=     0.6651160392081840E-04 nfe=     17
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.133E+03
+Number of func eval =  17 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes =  8  and dt = 0.136E-06 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      120.4847507637214     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      58.21462294977005     nfe=      3
+ iter=    2 fnrm=     0.4399426727243297     nfe=      6
+ iter=    3 fnrm=     0.1203279901547325     nfe=     18
+ iter=    4 fnrm=     0.2044023698695211E-01 nfe=     24
+ iter=    5 fnrm=     0.8523806178502590E-03 nfe=     29
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1767546107289585E-05 nfe=     31
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.106E+03
+Number of func eval =  31 ; nonlin iters =   6 ; precondJac eval =   2
+ iter=    0 fnrm=      106.4008441384168     nfe=      1
+ iter=    1 fnrm=      35.86240046847013     nfe=      6
+ iter=    2 fnrm=     0.1828180895743372     nfe=     16
+ iter=    3 fnrm=     0.1632137812850832E-01 nfe=     28
+ iter=    4 fnrm=     0.3104635735327672E-03 nfe=     37
+ iter=    5 fnrm=     0.2565847538361876E-06 nfe=     50
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.885E+02
+Number of func eval =  50 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=      88.45259590411725     nfe=      1
+ iter=    1 fnrm=      19.52482188667197     nfe=     10
+ iter=    2 fnrm=     0.4023048741721773E-01 nfe=     20
+ iter=    3 fnrm=     0.2194254312301476E-02 nfe=     37
+ iter=    4 fnrm=     0.1661909092517150E-04 nfe=     52
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.692E+02
+Number of func eval =  52 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      69.19142528880548     nfe=      1
+ iter=    1 fnrm=     0.5560314516245863     nfe=     12
+ iter=    2 fnrm=     0.8449838199999095E-01 nfe=     32
+ iter=    3 fnrm=     0.5651835564769665E-02 nfe=     45
+ iter=    4 fnrm=     0.3640116492619269E-04 nfe=     58
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.506E+02
+Number of func eval =  58 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      50.59476201409387     nfe=      1
+ iter=    1 fnrm=     0.4116683431752425     nfe=     14
+ iter=    2 fnrm=     0.4710766740688149E-01 nfe=     40
+ iter=    3 fnrm=     0.1343003735141266E-02 nfe=     58
+ iter=    4 fnrm=     0.1383617189292069E-05 nfe=     84
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.340E+02
+Number of func eval =  84 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes =  9  and dt = 0.463E-06 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      11.68962946796190     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      7.879699740073235     nfe=      4
+ iter=    2 fnrm=      2.683838602034414     nfe=     17
+ iter=    3 fnrm=     0.6492997277204225E-01 nfe=     30
+ iter=    4 fnrm=     0.2879600897066145E-02 nfe=     44
+ iter=    5 fnrm=     0.3246259036302409E-04 nfe=     59
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.723E+01
+Number of func eval =  59 ; nonlin iters =   5 ; precondJac eval =   1
+ iter=    0 fnrm=      7.228958090973907     nfe=      1
+ iter=    1 fnrm=      3.826290083343645     nfe=     15
+ iter=    2 fnrm=      3.260147548400612     nfe=     42
+ iter=    3 fnrm=     0.3983227044297170     nfe=     65
+ iter=    4 fnrm=     0.8990179862086126E-01 nfe=     82
+ iter=    5 fnrm=     0.8634735208212167E-02 nfe=     98
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.1214094605065067E-03 nfe=    100
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.768E+01
+Number of func eval = 100 ; nonlin iters =   6 ; precondJac eval =   1
+ iter=    0 fnrm=      7.675190919740356     nfe=      1
+ iter=    1 fnrm=      5.109347636033491     nfe=      7
+ iter=    2 fnrm=      4.937934295657640     nfe=     24
+ iter=    3 fnrm=      5.031903400196365     nfe=     43
+ iter=    4 fnrm=      5.378311996027968     nfe=     84
+ iter=    5 fnrm=      5.831486168318227     nfe=    116
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=      3.573014795928007     nfe=    119
+ iter=    7 fnrm=      3.661130816147657     nfe=    135
+ iter=    8 fnrm=      3.875438085145336     nfe=    153
+ iter=    9 fnrm=      3.011056367928421     nfe=    174
+ iter=   10 fnrm=      3.152986867910598     nfe=    197
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 10  and dt = 0.154E-06 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      6.350579600067528     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1364989854428040     nfe=      3
+ iter=    2 fnrm=     0.1318860376034405E-01 nfe=     12
+ iter=    3 fnrm=     0.3680965059165738E-03 nfe=     18
+ iter=    4 fnrm=     0.5824078469199204E-06 nfe=     27
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.645E+01
+Number of func eval =  27 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=      6.449279013640965     nfe=      1
+ iter=    1 fnrm=     0.7917912458779702     nfe=      7
+ iter=    2 fnrm=     0.1548158103546857     nfe=     18
+ iter=    3 fnrm=     0.4964059484069359E-01 nfe=     26
+ iter=    4 fnrm=     0.2859005936836495E-02 nfe=     34
+ iter=    5 fnrm=     0.1554990860406122E-04 nfe=     46
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.648E+01
+Number of func eval =  46 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=      6.477217544220689     nfe=      1
+ iter=    1 fnrm=     0.4956065927142827     nfe=     12
+ iter=    2 fnrm=     0.5703472956870462E-01 nfe=     27
+ iter=    3 fnrm=     0.4289979493626921E-02 nfe=     38
+ iter=    4 fnrm=     0.4266168674832646E-04 nfe=     51
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.645E+01
+Number of func eval =  51 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      6.445262688178444     nfe=      1
+ iter=    1 fnrm=     0.2619632880090231     nfe=     14
+ iter=    2 fnrm=     0.2852887600544354E-01 nfe=     30
+ iter=    3 fnrm=     0.7799741810936869E-03 nfe=     43
+ iter=    4 fnrm=     0.6684650090235331E-06 nfe=     62
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.640E+01
+Number of func eval =  62 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      6.399255756768226     nfe=      1
+ iter=    1 fnrm=     0.1401024940694519     nfe=     15
+ iter=    2 fnrm=     0.1060096987924023E-01 nfe=     32
+ iter=    3 fnrm=     0.1361539708200885E-03 nfe=     45
+ iter=    4 fnrm=     0.3090285764026184E-07 nfe=     70
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.635E+01
+Number of func eval =  70 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes = 11  and dt = 0.463E-06 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      5.544631834749186     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1356242833462090     nfe=      3
+ iter=    2 fnrm=     0.2895225225931618E-01 nfe=     17
+ iter=    3 fnrm=     0.2031984149023783E-01 nfe=     30
+ iter=    4 fnrm=     0.1654392037842606E-01 nfe=     42
+ iter=    5 fnrm=     0.1271628565278694E-01 nfe=     52
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1222027105891966E-01 nfe=     57
+ iter=    7 fnrm=     0.7258825046588778E-02 nfe=     60
+ iter=    8 fnrm=     0.4402430187325956E-02 nfe=     63
+ iter=    9 fnrm=     0.6595574339321666E-04 nfe=     66
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.528E+01
+Number of func eval =  66 ; nonlin iters =   9 ; precondJac eval =   2
+ iter=    0 fnrm=      5.279340870692030     nfe=      1
+ iter=    1 fnrm=     0.1437558611102936     nfe=      7
+ iter=    2 fnrm=     0.1166399337012321E-01 nfe=     16
+ iter=    3 fnrm=     0.2503643341849432E-03 nfe=     23
+ iter=    4 fnrm=     0.2225721116193034E-06 nfe=     35
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.518E+01
+Number of func eval =  35 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      5.183254922902550     nfe=      1
+ iter=    1 fnrm=     0.1261714998769511     nfe=      9
+ iter=    2 fnrm=     0.3332157851667327E-01 nfe=     20
+ iter=    3 fnrm=     0.8440264812900689E-02 nfe=     27
+ iter=    4 fnrm=     0.8998639724560686E-03 nfe=     32
+ iter=    5 fnrm=     0.1244778552202563E-04 nfe=     43
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.513E+01
+Number of func eval =  43 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=      5.132719982198137     nfe=      1
+ iter=    1 fnrm=     0.1243687535950158     nfe=     11
+ iter=    2 fnrm=     0.6002289686309869E-02 nfe=     23
+ iter=    3 fnrm=     0.5497112990284499E-04 nfe=     37
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.509E+01
+Number of func eval =  37 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      5.087517222714672     nfe=      1
+ iter=    1 fnrm=     0.1541578634073553     nfe=     13
+ iter=    2 fnrm=     0.1875440453053802E-01 nfe=     27
+ iter=    3 fnrm=     0.3550092184339375E-03 nfe=     38
+ iter=    4 fnrm=     0.1240542116389702E-06 nfe=     66
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.505E+01
+Number of func eval =  66 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes = 12  and dt = 0.158E-05 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      3.904038940460131     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      1.859774467410412     nfe=      3
+ iter=    2 fnrm=      1.435760890258359     nfe=     11
+ iter=    3 fnrm=     0.4769642867126185     nfe=     20
+ iter=    4 fnrm=     0.1852457558359372     nfe=     26
+ iter=    5 fnrm=     0.6426155561686987E-01 nfe=     33
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1471863409250226E-01 nfe=     35
+ iter=    7 fnrm=     0.1141424007466521E-02 nfe=     37
+ iter=    8 fnrm=     0.7810176265397077E-05 nfe=     40
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.348E+01
+Number of func eval =  40 ; nonlin iters =   8 ; precondJac eval =   2
+ iter=    0 fnrm=      3.481999018490077     nfe=      1
+ iter=    1 fnrm=      3.765570835521923     nfe=     10
+ iter=    2 fnrm=     0.5314030612587270     nfe=     22
+ iter=    3 fnrm=     0.1714451851506502     nfe=     35
+ iter=    4 fnrm=     0.3822282054716171E-01 nfe=     44
+ iter=    5 fnrm=     0.2150865003207171E-02 nfe=     53
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.7002095993144085E-05 nfe=     55
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.319E+01
+Number of func eval =  55 ; nonlin iters =   6 ; precondJac eval =   1
+ iter=    0 fnrm=      3.190922987327806     nfe=      1
+ iter=    1 fnrm=      1.901146431041137     nfe=      9
+ iter=    2 fnrm=     0.2550125493915859     nfe=     18
+ iter=    3 fnrm=     0.2797738666867141E-01 nfe=     27
+ iter=    4 fnrm=     0.5464685941266856E-03 nfe=     34
+ iter=    5 fnrm=     0.3581324681635175E-06 nfe=     45
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.294E+01
+Number of func eval =  45 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=      2.936569978624787     nfe=      1
+ iter=    1 fnrm=     0.7097147067058003     nfe=     14
+ iter=    2 fnrm=     0.9981650255416291E-01 nfe=     30
+ iter=    3 fnrm=     0.1274731933388127E-01 nfe=     42
+ iter=    4 fnrm=     0.4566218344258970E-03 nfe=     54
+ iter=    5 fnrm=     0.6689600213027624E-06 nfe=     72
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.272E+01
+Number of func eval =  72 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=      2.716611444197603     nfe=      1
+ iter=    1 fnrm=      1.612786246134384     nfe=     21
+ iter=    2 fnrm=     0.7118436471017613E-01 nfe=     42
+ iter=    3 fnrm=     0.2117923200848556E-02 nfe=     63
+ iter=    4 fnrm=     0.1143309666496862E-05 nfe=     87
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.259E+01
+Number of func eval =  87 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes = 13  and dt = 0.536E-05 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      2.815582797858029     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      1.963626772571091     nfe=      3
+ iter=    2 fnrm=      1.840875194953981     nfe=     11
+ iter=    3 fnrm=      1.698271337172389     nfe=     19
+ iter=    4 fnrm=     0.5100118150878065     nfe=     31
+ iter=    5 fnrm=     0.4655432511708112     nfe=     42
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.5043445852942071     nfe=     47
+ iter=    7 fnrm=     0.4480355724407589     nfe=     52
+ iter=    8 fnrm=     0.2503305348969416     nfe=     61
+ iter=    9 fnrm=     0.4462992001955867E-01 nfe=     66
+ iter=   10 fnrm=     0.2179797424654011E-02 nfe=     70
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 14  and dt = 0.179E-05 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      2.815582797858029     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.4022880588948895     nfe=      3
+ iter=    2 fnrm=     0.1854087618411295E-02 nfe=      8
+ iter=    3 fnrm=     0.8415655971924416E-05 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.253E+01
+Number of func eval =  15 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=      2.532711140496797     nfe=      1
+ iter=    1 fnrm=      1.024409392625534     nfe=      8
+ iter=    2 fnrm=     0.7134714649177079E-01 nfe=     15
+ iter=    3 fnrm=     0.5436675687337229E-02 nfe=     22
+ iter=    4 fnrm=     0.9211219880964580E-04 nfe=     30
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.235E+01
+Number of func eval =  30 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      2.352561569981153     nfe=      1
+ iter=    1 fnrm=     0.9719985098157347E-01 nfe=     11
+ iter=    2 fnrm=     0.2183953673825920E-01 nfe=     25
+ iter=    3 fnrm=     0.1967106779930896E-02 nfe=     35
+ iter=    4 fnrm=     0.2374464096766255E-04 nfe=     47
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.223E+01
+Number of func eval =  47 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      2.230067043402543     nfe=      1
+ iter=    1 fnrm=     0.3393285256934946E-01 nfe=     16
+ iter=    2 fnrm=     0.9151649327448721E-03 nfe=     35
+ iter=    3 fnrm=     0.1672134745883216E-05 nfe=     57
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.215E+01
+Number of func eval =  57 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      2.146788627857919     nfe=      1
+ iter=    1 fnrm=     0.2800576518181818E-01 nfe=     19
+ iter=    2 fnrm=     0.8211388525468959E-03 nfe=     41
+ iter=    3 fnrm=     0.2413577770469090E-05 nfe=     69
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.209E+01
+Number of func eval =  69 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 15  and dt = 0.536E-05 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      2.328817112092554     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.6914089971294601     nfe=      3
+ iter=    2 fnrm=     0.2522677311845766E-01 nfe=     10
+ iter=    3 fnrm=     0.3528663969457727E-03 nfe=     22
+ iter=    4 fnrm=     0.1158174301746768E-05 nfe=     39
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.212E+01
+Number of func eval =  39 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=      2.116877322656700     nfe=      1
+ iter=    1 fnrm=     0.3915061017950299     nfe=     12
+ iter=    2 fnrm=     0.7758808287344624E-02 nfe=     31
+ iter=    3 fnrm=     0.3517932563866815E-04 nfe=     65
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.201E+01
+Number of func eval =  65 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      2.012609613640542     nfe=      1
+ iter=    1 fnrm=     0.3202350399905008     nfe=     21
+ iter=    2 fnrm=     0.5382077839663336E-02 nfe=     51
+ iter=    3 fnrm=     0.3280104659300077E-04 nfe=     98
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.194E+01
+Number of func eval =  98 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      1.943253019009755     nfe=      1
+ iter=    1 fnrm=     0.1552990380334571     nfe=     30
+ iter=    2 fnrm=     0.1398812035393881E-01 nfe=     70
+ iter=    3 fnrm=     0.2058408600042805E-03 nfe=    117
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.189E+01
+Number of func eval = 117 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      1.889645602370362     nfe=      1
+ iter=    1 fnrm=     0.1485031681836376     nfe=     36
+ iter=    2 fnrm=     0.2332542553868474E-01 nfe=     87
+ iter=    3 fnrm=     0.1417930545959034E-02 nfe=    128
+ iter=    4 fnrm=     0.6918919533882093E-05 nfe=    211
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.184E+01
+Number of func eval = 211 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes = 16  and dt = 0.182E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      1.913095691701492     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=      1.375715767901891     nfe=      4
+ iter=    2 fnrm=     0.7941223204155184     nfe=      9
+ iter=    3 fnrm=     0.2181416635714903     nfe=     17
+ iter=    4 fnrm=     0.1349006452436205E-01 nfe=     29
+ iter=    5 fnrm=     0.1779986680492843E-03 nfe=     42
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.161E+01
+Number of func eval =  42 ; nonlin iters =   5 ; precondJac eval =   1
+ iter=    0 fnrm=      1.614720528019063     nfe=      1
+ iter=    1 fnrm=     0.9723218559983841     nfe=     16
+ iter=    2 fnrm=     0.3556603615415818     nfe=     33
+ iter=    3 fnrm=     0.2428570755240830E-01 nfe=     55
+ iter=    4 fnrm=     0.7036248098139726E-03 nfe=     80
+ iter=    5 fnrm=     0.1554096999562570E-05 nfe=    108
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.142E+01
+Number of func eval = 108 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=      1.416710163933137     nfe=      1
+ iter=    1 fnrm=     0.7434373572707075     nfe=     29
+ iter=    2 fnrm=     0.9670814313046978E-01 nfe=     60
+ iter=    3 fnrm=     0.5094687069557478E-02 nfe=     94
+ iter=    4 fnrm=     0.7818149654346879E-04 nfe=    137
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.127E+01
+Number of func eval = 137 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=      1.273444582091340     nfe=      1
+ iter=    1 fnrm=     0.3826473879310807     nfe=     40
+ iter=    2 fnrm=     0.2290316166469107E-01 nfe=     88
+ iter=    3 fnrm=     0.1880401694093831E-03 nfe=    147
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.115E+01
+Number of func eval = 147 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=      1.151215971486138     nfe=      1
+ iter=    1 fnrm=     0.1959625765679468     nfe=     50
+ iter=    2 fnrm=     0.4220378456193199E-02 nfe=    110
+ iter=    3 fnrm=     0.2967651876746393E-04 nfe=    223
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.104E+01
+Number of func eval = 223 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 17  and dt = 0.619E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=      1.052594637319958     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5922679423476458     nfe=      3
+ iter=    2 fnrm=     0.8573445152165032E-01 nfe=      9
+ iter=    3 fnrm=     0.5665224878428951E-02 nfe=     23
+ iter=    4 fnrm=     0.2239469286723542E-03 nfe=     36
+ iter=    5 fnrm=     0.7231829968452030E-06 nfe=     55
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.783E+00
+Number of func eval =  55 ; nonlin iters =   5 ; precondJac eval =   1
+ iter=    0 fnrm=     0.7833619181229342     nfe=      1
+ iter=    1 fnrm=     0.2562399101159664     nfe=     17
+ iter=    2 fnrm=     0.5295161317707205E-01 nfe=     49
+ iter=    3 fnrm=     0.1500814835954054E-01 nfe=     78
+ iter=    4 fnrm=     0.6388892562454444E-02 nfe=    105
+ iter=    5 fnrm=     0.3479734578218402E-03 nfe=    128
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.1426597221597680E-05 nfe=    130
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.648E+00
+Number of func eval = 130 ; nonlin iters =   6 ; precondJac eval =   1
+ iter=    0 fnrm=     0.6479416215164935     nfe=      1
+ iter=    1 fnrm=     0.3285672495060494     nfe=     10
+ iter=    2 fnrm=     0.4557449209224790E-01 nfe=     22
+ iter=    3 fnrm=     0.2769719164902851E-02 nfe=     37
+ iter=    4 fnrm=     0.7589347085557054E-04 nfe=     53
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.592E+00
+Number of func eval =  53 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.5919985917760864     nfe=      1
+ iter=    1 fnrm=     0.2978612287874590     nfe=     21
+ iter=    2 fnrm=     0.5395765182810616E-01 nfe=     49
+ iter=    3 fnrm=     0.7197865299140208E-02 nfe=     95
+ iter=    4 fnrm=     0.3230170118585143E-03 nfe=    144
+ iter=    5 fnrm=     0.9467755704414453E-06 nfe=    207
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.603E+00
+Number of func eval = 207 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=     0.6025450394473657     nfe=      1
+ iter=    1 fnrm=     0.2790004366706908     nfe=     54
+ iter=    2 fnrm=     0.5831273333995702E-01 nfe=    133
+ iter=    3 fnrm=     0.1271345240155195E-01 nfe=    213
+ iter=    4 fnrm=     0.1439387440535831E-02 nfe=    286
+ iter=    5 fnrm=     0.2287935633796646E-04 nfe=    378
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.652E+00
+Number of func eval = 378 ; nonlin iters =   5 ; precondJac eval =   0
+  
+*** Number time-step changes = 18  and dt = 0.211E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.4941697619051464     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.4650328235812164     nfe=      6
+ iter=    2 fnrm=     0.3772250495682778     nfe=     29
+ iter=    3 fnrm=     0.1967008087121485     nfe=     60
+ iter=    4 fnrm=     0.8922802269999176E-01 nfe=    100
+ iter=    5 fnrm=     0.1599932356116043E-01 nfe=    143
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1745940027548616E-02 nfe=    145
+ iter=    7 fnrm=     0.3650102083632457E-04 nfe=    149
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.542E+00
+Number of func eval = 149 ; nonlin iters =   7 ; precondJac eval =   2
+ iter=    0 fnrm=     0.5420838909349854     nfe=      1
+ iter=    1 fnrm=     0.3884624835398618     nfe=     14
+ iter=    2 fnrm=     0.1839009892737130     nfe=     30
+ iter=    3 fnrm=     0.2878772485451694E-01 nfe=     55
+ iter=    4 fnrm=     0.1388620121519403E-02 nfe=     80
+ iter=    5 fnrm=     0.2773705923440832E-04 nfe=    108
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.631E+00
+Number of func eval = 108 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=     0.6311366021276861     nfe=      1
+ iter=    1 fnrm=     0.3691003418767669     nfe=     30
+ iter=    2 fnrm=     0.1523183150304805     nfe=    118
+ iter=    3 fnrm=     0.1319511653605477     nfe=    238
+ iter=    4 fnrm=     0.1152793005929650     nfe=    358
+ iter=    5 fnrm=     0.1029550916970868     nfe=    478
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.9478930249086320E-01 nfe=    481
+ iter=    7 fnrm=     0.8963779131739504E-01 nfe=    487
+ iter=    8 fnrm=     0.8652519545400274E-01 nfe=    497
+ iter=    9 fnrm=     0.8600936674087040E-01 nfe=    509
+ iter=   10 fnrm=     0.8523593205600093E-01 nfe=    521
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 19  and dt = 0.702E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.3389238655741720     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.3713778437399362E-01 nfe=      3
+ iter=    2 fnrm=     0.5558871416691598E-02 nfe=     13
+ iter=    3 fnrm=     0.8243915838229908E-03 nfe=     21
+ iter=    4 fnrm=     0.5406299440958352E-04 nfe=     29
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.350E+00
+Number of func eval =  29 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=     0.3496123075643437     nfe=      1
+ iter=    1 fnrm=     0.3558881851049858E-01 nfe=      7
+ iter=    2 fnrm=     0.5680066743179484E-02 nfe=     21
+ iter=    3 fnrm=     0.9081696604839715E-03 nfe=     31
+ iter=    4 fnrm=     0.6378252329288676E-04 nfe=     42
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.361E+00
+Number of func eval =  42 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3614337441005065     nfe=      1
+ iter=    1 fnrm=     0.3827002587649216E-01 nfe=     10
+ iter=    2 fnrm=     0.2354153387536598E-01 nfe=     30
+ iter=    3 fnrm=     0.3769104426695415E-02 nfe=     42
+ iter=    4 fnrm=     0.4637088393183408E-03 nfe=     56
+ iter=    5 fnrm=     0.1726741948959549E-04 nfe=     76
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.374E+00
+Number of func eval =  76 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3742780014863422     nfe=      1
+ iter=    1 fnrm=     0.4477452612884882E-01 nfe=     15
+ iter=    2 fnrm=     0.3142504109217593E-01 nfe=     42
+ iter=    3 fnrm=     0.2499172812373532E-01 nfe=     74
+ iter=    4 fnrm=     0.2053382773954754E-01 nfe=    103
+ iter=    5 fnrm=     0.1767701524497676E-01 nfe=    132
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.1584724832408820E-01 nfe=    135
+ iter=    7 fnrm=     0.1467572081589834E-01 nfe=    139
+ iter=    8 fnrm=     0.1392575411140168E-01 nfe=    143
+ iter=    9 fnrm=     0.1344569980251213E-01 nfe=    147
+ iter=   10 fnrm=     0.1313843459145693E-01 nfe=    151
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 20  and dt = 0.234E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.3068747697683353     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.4525936569341619E-02 nfe=      3
+ iter=    2 fnrm=     0.4277758714220237E-03 nfe=      8
+ iter=    3 fnrm=     0.2889448755236045E-04 nfe=     13
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.311E+00
+Number of func eval =  13 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=     0.3113614662973263     nfe=      1
+ iter=    1 fnrm=     0.4939374984867489E-02 nfe=      4
+ iter=    2 fnrm=     0.9048617778370501E-03 nfe=     10
+ iter=    3 fnrm=     0.1036588765130536E-03 nfe=     16
+ iter=    4 fnrm=     0.2019619559705071E-05 nfe=     21
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.316E+00
+Number of func eval =  21 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3162805107449913     nfe=      1
+ iter=    1 fnrm=     0.5872398200044209E-02 nfe=      6
+ iter=    2 fnrm=     0.3062747109340311E-02 nfe=     13
+ iter=    3 fnrm=     0.5536222295230729E-03 nfe=     19
+ iter=    4 fnrm=     0.4407727560390622E-04 nfe=     24
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.321E+00
+Number of func eval =  24 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3210223873923561     nfe=      1
+ iter=    1 fnrm=     0.6944301661211961E-02 nfe=      7
+ iter=    2 fnrm=     0.7353914259790387E-02 nfe=     16
+ iter=    3 fnrm=     0.2417295340419088E-03 nfe=     22
+ iter=    4 fnrm=     0.9203883197679414E-05 nfe=     30
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.325E+00
+Number of func eval =  30 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3248201914497347     nfe=      1
+ iter=    1 fnrm=     0.8085734618157555E-02 nfe=      8
+ iter=    2 fnrm=     0.7241919068538443E-02 nfe=     20
+ iter=    3 fnrm=     0.4788904669975794E-03 nfe=     29
+ iter=    4 fnrm=     0.3073783141244568E-04 nfe=     39
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.327E+00
+Number of func eval =  39 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes = 21  and dt = 0.702E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.3300711418771466     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5136497453056511E-01 nfe=      3
+ iter=    2 fnrm=     0.2009865898265743E-01 nfe=     14
+ iter=    3 fnrm=     0.5615022805556301E-02 nfe=     25
+ iter=    4 fnrm=     0.4577226001890098E-02 nfe=     36
+ iter=    5 fnrm=     0.3909352105229546E-02 nfe=     47
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.3478052407766055E-02 nfe=     50
+ iter=    7 fnrm=     0.3201611631476129E-02 nfe=     54
+ iter=    8 fnrm=     0.3024529507090702E-02 nfe=     58
+ iter=    9 fnrm=     0.2911134139144185E-02 nfe=     62
+ iter=   10 fnrm=     0.2838536075541667E-02 nfe=     66
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 22  and dt = 0.234E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.3300711418771466     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.4875857520167294E-02 nfe=      3
+ iter=    2 fnrm=     0.1324496146791119E-03 nfe=      8
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.323E+00
+Number of func eval =   8 ; nonlin iters =   2 ; precondJac eval =   1
+ iter=    0 fnrm=     0.3234522526062386     nfe=      1
+ iter=    1 fnrm=     0.5021924804105545E-02 nfe=      4
+ iter=    2 fnrm=     0.2155004850136953E-03 nfe=      9
+ iter=    3 fnrm=     0.1125297418535761E-04 nfe=     16
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.318E+00
+Number of func eval =  16 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3179513387536077     nfe=      1
+ iter=    1 fnrm=     0.5088874283518151E-02 nfe=      5
+ iter=    2 fnrm=     0.2005227416031925E-03 nfe=     11
+ iter=    3 fnrm=     0.7998277049624853E-05 nfe=     19
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.314E+00
+Number of func eval =  19 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3136872892592684     nfe=      1
+ iter=    1 fnrm=     0.5150259696257439E-02 nfe=      5
+ iter=    2 fnrm=     0.1783751642543960E-03 nfe=     12
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.310E+00
+Number of func eval =  12 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3102159915732897     nfe=      1
+ iter=    1 fnrm=     0.5211968555022792E-02 nfe=      6
+ iter=    2 fnrm=     0.1667639754017842E-03 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.307E+00
+Number of func eval =  15 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes = 23  and dt = 0.702E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.2864344813496371     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5630396241721913E-01 nfe=      3
+ iter=    2 fnrm=     0.1837582801643808E-01 nfe=     12
+ iter=    3 fnrm=     0.1864446037671658E-02 nfe=     18
+ iter=    4 fnrm=     0.4038954853479165E-04 nfe=     25
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.276E+00
+Number of func eval =  25 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=     0.2764441898736179     nfe=      1
+ iter=    1 fnrm=     0.6505657319229748E-01 nfe=      6
+ iter=    2 fnrm=     0.3583354363509594E-01 nfe=     16
+ iter=    3 fnrm=     0.6557151209552018E-02 nfe=     24
+ iter=    4 fnrm=     0.5631546304983479E-03 nfe=     32
+ iter=    5 fnrm=     0.5542988226397908E-05 nfe=     42
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.270E+00
+Number of func eval =  42 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2695903307750067     nfe=      1
+ iter=    1 fnrm=     0.9094330337708055E-01 nfe=     10
+ iter=    2 fnrm=     0.5806980686394592E-01 nfe=     26
+ iter=    3 fnrm=     0.1838320715620515E-01 nfe=     38
+ iter=    4 fnrm=     0.4740572714629942E-02 nfe=     49
+ iter=    5 fnrm=     0.6211939842402930E-03 nfe=     62
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.1420191281042543E-04 nfe=     64
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.265E+00
+Number of func eval =  64 ; nonlin iters =   6 ; precondJac eval =   1
+ iter=    0 fnrm=     0.2648444137951742     nfe=      1
+ iter=    1 fnrm=     0.9159482318412282E-01 nfe=      7
+ iter=    2 fnrm=     0.5132304915182235E-01 nfe=     20
+ iter=    3 fnrm=     0.1473687985492013E-01 nfe=     27
+ iter=    4 fnrm=     0.3695377145056646E-02 nfe=     32
+ iter=    5 fnrm=     0.4729161334059896E-03 nfe=     37
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.1029889948603794E-04 nfe=     39
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.261E+00
+Number of func eval =  39 ; nonlin iters =   6 ; precondJac eval =   1
+ iter=    0 fnrm=     0.2612476221490313     nfe=      1
+ iter=    1 fnrm=     0.6768045179262197E-01 nfe=      7
+ iter=    2 fnrm=     0.7000840544513752E-01 nfe=     18
+ iter=    3 fnrm=     0.1989439367882858E-01 nfe=     25
+ iter=    4 fnrm=     0.2596376956240182E-02 nfe=     30
+ iter=    5 fnrm=     0.1068770838242761E-03 nfe=     35
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.257E+00
+Number of func eval =  35 ; nonlin iters =   5 ; precondJac eval =   0
+  
+*** Number time-step changes = 24  and dt = 0.239E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1975735853243420     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1449820441334065     nfe=      3
+ iter=    2 fnrm=     0.1141732855668226     nfe=     27
+ iter=    3 fnrm=     0.1201054122252861     nfe=     46
+ iter=    4 fnrm=     0.1304558348083630     nfe=     72
+ iter=    5 fnrm=     0.1422570120270830     nfe=     95
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1234369706852187     nfe=     97
+ iter=    7 fnrm=     0.1344851599922525     nfe=    112
+ iter=    8 fnrm=     0.1397745214165890     nfe=    120
+ iter=    9 fnrm=     0.1358193745624743     nfe=    126
+ iter=   10 fnrm=     0.1433848692821863     nfe=    140
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 25  and dt = 0.795E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1975735853243420     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.6211027768548954E-01 nfe=      3
+ iter=    2 fnrm=     0.3360769455423621E-01 nfe=     14
+ iter=    3 fnrm=     0.3256228897026352E-01 nfe=     24
+ iter=    4 fnrm=     0.1486584929493328E-02 nfe=     30
+ iter=    5 fnrm=     0.9289626400958580E-04 nfe=     37
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.194E+00
+Number of func eval =  37 ; nonlin iters =   5 ; precondJac eval =   1
+ iter=    0 fnrm=     0.1939752298349887     nfe=      1
+ iter=    1 fnrm=     0.5182703449965040E-01 nfe=      7
+ iter=    2 fnrm=     0.2053790745278369E-01 nfe=     16
+ iter=    3 fnrm=     0.2064374748111348E-01 nfe=     28
+ iter=    4 fnrm=     0.9928968163682918E-03 nfe=     36
+ iter=    5 fnrm=     0.2349285829646902E-04 nfe=     45
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.190E+00
+Number of func eval =  45 ; nonlin iters =   5 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1901287828955102     nfe=      1
+ iter=    1 fnrm=     0.4727662782903021E-01 nfe=     10
+ iter=    2 fnrm=     0.8022075885884154E-02 nfe=     23
+ iter=    3 fnrm=     0.2031367500714755E-02 nfe=     36
+ iter=    4 fnrm=     0.1036274014485145E-03 nfe=     49
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.185E+00
+Number of func eval =  49 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1847952018781294     nfe=      1
+ iter=    1 fnrm=     0.4009419951958353E-01 nfe=     14
+ iter=    2 fnrm=     0.5286533283577206E-02 nfe=     31
+ iter=    3 fnrm=     0.8524901607633906E-03 nfe=     48
+ iter=    4 fnrm=     0.4587384233056906E-04 nfe=     66
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.179E+00
+Number of func eval =  66 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1789197835984876     nfe=      1
+ iter=    1 fnrm=     0.3172624579687312E-01 nfe=     17
+ iter=    2 fnrm=     0.4986348978755967E-02 nfe=     34
+ iter=    3 fnrm=     0.8172174233202174E-03 nfe=     55
+ iter=    4 fnrm=     0.4731266188930372E-04 nfe=     77
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.173E+00
+Number of func eval =  77 ; nonlin iters =   4 ; precondJac eval =   0
+  
+*** Number time-step changes = 26  and dt = 0.239E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1378809666825400     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1384130848951099     nfe=      3
+ iter=    2 fnrm=     0.1380255127516236     nfe=     36
+ iter=    3 fnrm=     0.9694739193641094E-01 nfe=     59
+ iter=    4 fnrm=     0.1021942640034714     nfe=     83
+ iter=    5 fnrm=     0.1007302282481475     nfe=    110
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1003819353296684     nfe=    113
+ iter=    7 fnrm=     0.1033769889861260     nfe=    121
+ iter=    8 fnrm=     0.1128558053718038     nfe=    138
+ iter=    9 fnrm=     0.1124024900731177     nfe=    147
+ iter=   10 fnrm=     0.1127349926593412     nfe=    157
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 27  and dt = 0.795E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1378809666825400     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.2045620179224890E-01 nfe=      3
+ iter=    2 fnrm=     0.3180705734281232E-02 nfe=     11
+ iter=    3 fnrm=     0.4894884044423067E-03 nfe=     17
+ iter=    4 fnrm=     0.2492995424638990E-04 nfe=     23
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.134E+00
+Number of func eval =  23 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=     0.1338206849400599     nfe=      1
+ iter=    1 fnrm=     0.1627271839403965E-01 nfe=      6
+ iter=    2 fnrm=     0.2232147052986708E-02 nfe=     14
+ iter=    3 fnrm=     0.3094545651730796E-03 nfe=     22
+ iter=    4 fnrm=     0.1168818348221801E-04 nfe=     31
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.130E+00
+Number of func eval =  31 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1300388182994740     nfe=      1
+ iter=    1 fnrm=     0.1374395937935383E-01 nfe=      8
+ iter=    2 fnrm=     0.1526901856024896E-02 nfe=     17
+ iter=    3 fnrm=     0.1702065986187243E-03 nfe=     28
+ iter=    4 fnrm=     0.4122056666525876E-05 nfe=     40
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.127E+00
+Number of func eval =  40 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1265018316466867     nfe=      1
+ iter=    1 fnrm=     0.1247421154969977E-01 nfe=      9
+ iter=    2 fnrm=     0.1099627441724699E-02 nfe=     20
+ iter=    3 fnrm=     0.8788660795975951E-04 nfe=     34
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.123E+00
+Number of func eval =  34 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1232086244747418     nfe=      1
+ iter=    1 fnrm=     0.1221378034617119E-01 nfe=     11
+ iter=    2 fnrm=     0.9004582886707149E-03 nfe=     24
+ iter=    3 fnrm=     0.4794515597334345E-04 nfe=     44
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.120E+00
+Number of func eval =  44 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 28  and dt = 0.239E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1045404150585585     nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5654117140692533E-01 nfe=      5
+ iter=    2 fnrm=     0.1631787818947463E-01 nfe=     14
+ iter=    3 fnrm=     0.2987078373815638E-02 nfe=     24
+ iter=    4 fnrm=     0.6060778093138447E-03 nfe=     34
+ iter=    5 fnrm=     0.4796520173546941E-04 nfe=     44
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.974E-01
+Number of func eval =  44 ; nonlin iters =   5 ; precondJac eval =   1
+ iter=    0 fnrm=     0.9740819177528577E-01 nfe=      1
+ iter=    1 fnrm=     0.5467868065413749E-01 nfe=     12
+ iter=    2 fnrm=     0.1505623726701088E-01 nfe=     25
+ iter=    3 fnrm=     0.1279599670695667E-02 nfe=     38
+ iter=    4 fnrm=     0.1117246220292101E-03 nfe=     56
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.935E-01
+Number of func eval =  56 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.9345410120716646E-01 nfe=      1
+ iter=    1 fnrm=     0.5031810257442445E-01 nfe=     18
+ iter=    2 fnrm=     0.1100313233886639E-01 nfe=     38
+ iter=    3 fnrm=     0.6499475923293824E-03 nfe=     57
+ iter=    4 fnrm=     0.1901802902651638E-04 nfe=     85
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.931E-01
+Number of func eval =  85 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.9312739084618903E-01 nfe=      1
+ iter=    1 fnrm=     0.6078385663396051E-01 nfe=     29
+ iter=    2 fnrm=     0.1833609808677204E-01 nfe=     56
+ iter=    3 fnrm=     0.1386570566324256E-02 nfe=     81
+ iter=    4 fnrm=     0.9662037621348751E-04 nfe=    112
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.958E-01
+Number of func eval = 112 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.9578918971288622E-01 nfe=      1
+ iter=    1 fnrm=     0.9183685294681737E-01 nfe=     30
+ iter=    2 fnrm=     0.6417547598001404E-01 nfe=     90
+ iter=    3 fnrm=     0.6277541654090865E-01 nfe=    161
+ iter=    4 fnrm=     0.6441646922932205E-01 nfe=    280
+ iter=    5 fnrm=     0.6631844870801382E-01 nfe=    392
+  Updating Jacobian, npe =                      1
+ iter=    6 fnrm=     0.6046874818905714E-01 nfe=    395
+ iter=    7 fnrm=     0.5765297915240709E-01 nfe=    403
+ iter=    8 fnrm=     0.5474445790234717E-01 nfe=    415
+ iter=    9 fnrm=     0.5260246747904328E-01 nfe=    428
+ iter=   10 fnrm=     0.5112040769884647E-01 nfe=    442
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 29  and dt = 0.795E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.7636080541096119E-01 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.7347911865312406E-02 nfe=      3
+ iter=    2 fnrm=     0.3460178014961902E-03 nfe=      9
+ iter=    3 fnrm=     0.5420057086945233E-05 nfe=     16
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.769E-01
+Number of func eval =  16 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=     0.7688557643557334E-01 nfe=      1
+ iter=    1 fnrm=     0.7622219772563140E-02 nfe=      6
+ iter=    2 fnrm=     0.4063085373858886E-03 nfe=     12
+ iter=    3 fnrm=     0.6897231064113844E-05 nfe=     21
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.770E-01
+Number of func eval =  21 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.7702178169844121E-01 nfe=      1
+ iter=    1 fnrm=     0.7617743743343155E-02 nfe=      7
+ iter=    2 fnrm=     0.4488467520227285E-03 nfe=     15
+ iter=    3 fnrm=     0.8057692608495205E-05 nfe=     25
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.768E-01
+Number of func eval =  25 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.7675242965751014E-01 nfe=      1
+ iter=    1 fnrm=     0.7555933667500825E-02 nfe=      9
+ iter=    2 fnrm=     0.4653480022725385E-03 nfe=     19
+ iter=    3 fnrm=     0.8714693362548100E-05 nfe=     31
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.761E-01
+Number of func eval =  31 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.7611320459595187E-01 nfe=      1
+ iter=    1 fnrm=     0.7540337379358239E-02 nfe=     10
+ iter=    2 fnrm=     0.4478085264926255E-03 nfe=     22
+ iter=    3 fnrm=     0.8998537840225892E-05 nfe=     36
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.751E-01
+Number of func eval =  36 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 30  and dt = 0.239E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.6845117033248094E-01 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5523193941203325E-01 nfe=      3
+ iter=    2 fnrm=     0.5873389228720675E-01 nfe=     33
+ iter=    3 fnrm=     0.5819441097250783E-01 nfe=     61
+ iter=    4 fnrm=     0.4619606223457513E-01 nfe=     89
+ iter=    5 fnrm=     0.4152300595432944E-01 nfe=    117
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.4186361780417634E-01 nfe=    121
+ iter=    7 fnrm=     0.3867040312864273E-01 nfe=    131
+ iter=    8 fnrm=     0.3625369722617219E-01 nfe=    141
+ iter=    9 fnrm=     0.3453797445340925E-01 nfe=    151
+ iter=   10 fnrm=     0.3341396064217592E-01 nfe=    162
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 31  and dt = 0.795E-04 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.6845117033248094E-01 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.6606771690257137E-02 nfe=      3
+ iter=    2 fnrm=     0.3920131020193939E-03 nfe=      9
+ iter=    3 fnrm=     0.8356215543149942E-05 nfe=     16
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.669E-01
+Number of func eval =  16 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=     0.6685072384734526E-01 nfe=      1
+ iter=    1 fnrm=     0.6388855298339375E-02 nfe=      6
+ iter=    2 fnrm=     0.3307765825540875E-03 nfe=     13
+ iter=    3 fnrm=     0.7471749839701829E-05 nfe=     22
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.651E-01
+Number of func eval =  22 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.6508657702807943E-01 nfe=      1
+ iter=    1 fnrm=     0.5571522285091443E-02 nfe=      8
+ iter=    2 fnrm=     0.2710784062159723E-03 nfe=     18
+ iter=    3 fnrm=     0.6380737487574368E-05 nfe=     30
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.632E-01
+Number of func eval =  30 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.6319916945450757E-01 nfe=      1
+ iter=    1 fnrm=     0.5703444237076409E-02 nfe=      9
+ iter=    2 fnrm=     0.2180636078938550E-03 nfe=     20
+ iter=    3 fnrm=     0.5090138907918723E-05 nfe=     34
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.612E-01
+Number of func eval =  34 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.6118688444091618E-01 nfe=      1
+ iter=    1 fnrm=     0.5399066829647966E-02 nfe=     11
+ iter=    2 fnrm=     0.1755431905637444E-03 nfe=     25
+ iter=    3 fnrm=     0.3903787727120435E-05 nfe=     43
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.590E-01
+Number of func eval =  43 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 32  and dt = 0.239E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.5424256834821418E-01 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.3556569608355112E-01 nfe=      3
+ iter=    2 fnrm=     0.9102397933910543E-02 nfe=     16
+ iter=    3 fnrm=     0.9438036835731130E-02 nfe=     36
+ iter=    4 fnrm=     0.1024828524262518E-01 nfe=     54
+ iter=    5 fnrm=     0.2664733068122584E-02 nfe=     62
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.1564659517243250E-02 nfe=     68
+ iter=    7 fnrm=     0.1694005922137612E-03 nfe=     73
+ iter=    8 fnrm=     0.5117089980980294E-05 nfe=     79
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.482E-01
+Number of func eval =  79 ; nonlin iters =   8 ; precondJac eval =   2
+ iter=    0 fnrm=     0.4824964978719303E-01 nfe=      1
+ iter=    1 fnrm=     0.3084874284357390E-01 nfe=      8
+ iter=    2 fnrm=     0.5991347277105910E-02 nfe=     18
+ iter=    3 fnrm=     0.9861919164251246E-03 nfe=     26
+ iter=    4 fnrm=     0.7022780408563526E-04 nfe=     34
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.430E-01
+Number of func eval =  34 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4298841599246323E-01 nfe=      1
+ iter=    1 fnrm=     0.3301727244531379E-01 nfe=     10
+ iter=    2 fnrm=     0.4882087121920173E-02 nfe=     20
+ iter=    3 fnrm=     0.3111860231509948E-03 nfe=     29
+ iter=    4 fnrm=     0.6038311823865146E-05 nfe=     41
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.383E-01
+Number of func eval =  41 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3828968180137995E-01 nfe=      1
+ iter=    1 fnrm=     0.2462204301467232E-01 nfe=     13
+ iter=    2 fnrm=     0.2869483836506612E-02 nfe=     25
+ iter=    3 fnrm=     0.1301107558756047E-03 nfe=     37
+ iter=    4 fnrm=     0.6475988787778367E-06 nfe=     52
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.341E-01
+Number of func eval =  52 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3408148785185780E-01 nfe=      1
+ iter=    1 fnrm=     0.1631246072176001E-01 nfe=     15
+ iter=    2 fnrm=     0.1725859124619959E-02 nfe=     29
+ iter=    3 fnrm=     0.6353473029241846E-04 nfe=     44
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.304E-01
+Number of func eval =  44 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 33  and dt = 0.811E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.2786232807935041E-01 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.2166420511468721E-01 nfe=      6
+ iter=    2 fnrm=     0.1106245493531399E-01 nfe=     16
+ iter=    3 fnrm=     0.1086124504072025E-02 nfe=     26
+ iter=    4 fnrm=     0.7768893072045869E-04 nfe=     35
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.197E-01
+Number of func eval =  35 ; nonlin iters =   4 ; precondJac eval =   1
+ iter=    0 fnrm=     0.1968846376355816E-01 nfe=      1
+ iter=    1 fnrm=     0.1698714070149363E-01 nfe=     13
+ iter=    2 fnrm=     0.6259752909660471E-02 nfe=     25
+ iter=    3 fnrm=     0.1974185878285294E-03 nfe=     37
+ iter=    4 fnrm=     0.3263939253452896E-05 nfe=     53
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.137E-01
+Number of func eval =  53 ; nonlin iters =   4 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1365579397985399E-01 nfe=      1
+ iter=    1 fnrm=     0.1057747377991208E-01 nfe=     16
+ iter=    2 fnrm=     0.3009024700581267E-02 nfe=     32
+ iter=    3 fnrm=     0.2982563703690756E-04 nfe=     48
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.924E-02
+Number of func eval =  48 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.9242955174939281E-02 nfe=      1
+ iter=    1 fnrm=     0.6622361248527269E-02 nfe=     22
+ iter=    2 fnrm=     0.1376727303284124E-02 nfe=     41
+ iter=    3 fnrm=     0.2949339213206809E-05 nfe=     61
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.640E-02
+Number of func eval =  61 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.6399513244370914E-02 nfe=      1
+ iter=    1 fnrm=     0.4799898569432005E-02 nfe=     24
+ iter=    2 fnrm=     0.1366079485452156E-02 nfe=     46
+ iter=    3 fnrm=     0.1421236173907646E-04 nfe=     69
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.517E-02
+Number of func eval =  69 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 34  and dt = 0.276E-02 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.5115666828322498E-02 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1254548512137207     nfe=      4
+ iter=    2 fnrm=     0.4621586757745362     nfe=     44
+ iter=    3 fnrm=     0.5263545940753906     nfe=    106
+ iter=    4 fnrm=      2.733925664222603     nfe=    157
+ iter=    5 fnrm=      2.580455072133214     nfe=    233
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=      2.337265379288722     nfe=    236
+ iter=    7 fnrm=      2.163238780675369     nfe=    247
+ iter=    8 fnrm=      2.055381904276048     nfe=    262
+ iter=    9 fnrm=      1.983023467262968     nfe=    280
+ iter=   10 fnrm=      1.939141758599356     nfe=    298
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 35  and dt = 0.920E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.5115666828322498E-02 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.4548598416275277E-02 nfe=      6
+ iter=    2 fnrm=     0.2180218623382287E-02 nfe=     13
+ iter=    3 fnrm=     0.4897454586899686E-04 nfe=     19
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.451E-02
+Number of func eval =  19 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=     0.4507070677166681E-02 nfe=      1
+ iter=    1 fnrm=     0.3601140489135643E-02 nfe=     10
+ iter=    2 fnrm=     0.1156014049652216E-02 nfe=     18
+ iter=    3 fnrm=     0.1772551208966305E-04 nfe=     26
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.412E-02
+Number of func eval =  26 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4120910923987567E-02 nfe=      1
+ iter=    1 fnrm=     0.3192111017103227E-02 nfe=     11
+ iter=    2 fnrm=     0.8657060601196047E-03 nfe=     20
+ iter=    3 fnrm=     0.1173115537879754E-04 nfe=     29
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.405E-02
+Number of func eval =  29 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4046376145942978E-02 nfe=      1
+ iter=    1 fnrm=     0.3310435014330978E-02 nfe=     12
+ iter=    2 fnrm=     0.1150779750647873E-02 nfe=     22
+ iter=    3 fnrm=     0.4292741695596473E-04 nfe=     31
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.404E-02
+Number of func eval =  31 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4040769940814129E-02 nfe=      1
+ iter=    1 fnrm=     0.3194181130433671E-02 nfe=     14
+ iter=    2 fnrm=     0.1078395931467481E-02 nfe=     26
+ iter=    3 fnrm=     0.2985432656322516E-04 nfe=     37
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.384E-02
+Number of func eval =  37 ; nonlin iters =   3 ; precondJac eval =   0
+  
+*** Number time-step changes = 36  and dt = 0.276E-02 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.3766159248280093E-02 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.5304371654468425E-01 nfe=      4
+ iter=    2 fnrm=     0.1639971445236926E-01 nfe=     15
+ iter=    3 fnrm=     0.6368643458821997E-01 nfe=     26
+ iter=    4 fnrm=     0.1794853668032435E-01 nfe=     33
+ iter=    5 fnrm=     0.7227862028101559     nfe=     45
+  Updating Jacobian, npe =                      3
+ iter=    6 fnrm=     0.5829153791734483     nfe=     47
+ iter=    7 fnrm=     0.4980243135760391     nfe=     62
+ iter=    8 fnrm=     0.4446249066701550     nfe=     74
+ iter=    9 fnrm=     0.4103646696903497     nfe=     85
+ iter=   10 fnrm=     0.3883553361837262     nfe=     96
+
+
+ nksol ---  iterm = 4.
+            the maximum allowable number of nonlinear
+            iterations has been reached.
+ Interpolants created; mype =                   -1
+  
+*** Number time-step changes = 37  and dt = 0.920E-03 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.3766159248280093E-02 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.2638405786652885E-02 nfe=      6
+ iter=    2 fnrm=     0.5785105416352555E-03 nfe=     13
+ iter=    3 fnrm=     0.9927012649693936E-05 nfe=     19
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.336E-02
+Number of func eval =  19 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=     0.3356357728229242E-02 nfe=      1
+ iter=    1 fnrm=     0.2003641895655660E-02 nfe=      7
+ iter=    2 fnrm=     0.1130256958435465E-02 nfe=     14
+ iter=    3 fnrm=     0.2447462355631621E-04 nfe=     21
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.285E-02
+Number of func eval =  21 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2846028739864349E-02 nfe=      1
+ iter=    1 fnrm=     0.2428539413210626E-02 nfe=      8
+ iter=    2 fnrm=     0.1091183684534214E-03 nfe=     15
+ iter=    3 fnrm=     0.1945251508269833E-05 nfe=     23
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.233E-02
+Number of func eval =  23 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2329693227495819E-02 nfe=      1
+ iter=    1 fnrm=     0.1493868073424209E-02 nfe=      9
+ iter=    2 fnrm=     0.3910739473043651E-04 nfe=     16
+ iter=    3 fnrm=     0.2401672614393354E-06 nfe=     26
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.187E-02
+Number of func eval =  26 ; nonlin iters =   3 ; precondJac eval =   0
+ iter=    0 fnrm=     0.1867514933258771E-02 nfe=      1
+ iter=    1 fnrm=     0.8997908776413636E-03 nfe=     10
+ iter=    2 fnrm=     0.1228390431028268E-04 nfe=     18
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.148E-02
+Number of func eval =  18 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes = 38  and dt = 0.276E-02 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1479834843426109E-02 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.2442009347332179E-02 nfe=      4
+ iter=    2 fnrm=     0.4609410833728738E-04 nfe=      9
+ iter=    3 fnrm=     0.2321738268955624E-06 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.855E-03
+Number of func eval =  15 ; nonlin iters =   3 ; precondJac eval =   1
+ iter=    0 fnrm=     0.8553805567214699E-03 nfe=      1
+ iter=    1 fnrm=     0.9173402913817848E-03 nfe=      8
+ iter=    2 fnrm=     0.3604943911657874E-05 nfe=     13
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.530E-03
+Number of func eval =  13 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.5298954240966093E-03 nfe=      1
+ iter=    1 fnrm=     0.4091993421704555E-03 nfe=      9
+ iter=    2 fnrm=     0.7690569305936080E-06 nfe=     15
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.344E-03
+Number of func eval =  15 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3443268321510800E-03 nfe=      1
+ iter=    1 fnrm=     0.1781101935125527E-03 nfe=     10
+ iter=    2 fnrm=     0.1750771144618762E-06 nfe=     17
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.227E-03
+Number of func eval =  17 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2271751298880472E-03 nfe=      1
+ iter=    1 fnrm=     0.7860253470079210E-04 nfe=     10
+ iter=    2 fnrm=     0.3373423841093926E-07 nfe=     17
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.150E-03
+Number of func eval =  17 ; nonlin iters =   2 ; precondJac eval =   0
+  
+*** Number time-step changes = 39  and dt = 0.938E-02 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1495943713754216E-03 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1196691002277750E-03 nfe=      5
+ iter=    2 fnrm=     0.6976861697700016E-07 nfe=      9
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.550E-04
+Number of func eval =   9 ; nonlin iters =   2 ; precondJac eval =   1
+ iter=    0 fnrm=     0.5497049256365306E-04 nfe=      1
+ iter=    1 fnrm=     0.1648904738935027E-04 nfe=      7
+ iter=    2 fnrm=     0.1059445682283097E-08 nfe=     12
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.204E-04
+Number of func eval =  12 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2037780030016188E-04 nfe=      1
+ iter=    1 fnrm=     0.2306736079931699E-05 nfe=      7
+ iter=    2 fnrm=     0.1104428235243215E-10 nfe=     12
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.761E-05
+Number of func eval =  12 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.7612768257218940E-05 nfe=      1
+ iter=    1 fnrm=     0.3246689744212020E-06 nfe=      8
+ iter=    2 fnrm=     0.9402178769788820E-12 nfe=     14
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.285E-05
+Number of func eval =  14 ; nonlin iters =   2 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2853748790749470E-05 nfe=      1
+ iter=    1 fnrm=     0.4580385471076467E-07 nfe=      8
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.107E-05
+Number of func eval =   8 ; nonlin iters =   1 ; precondJac eval =   0
+  
+*** Number time-step changes = 40  and dt = 0.319E-01 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.1072996113095207E-05 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.1188872513247827E-07 nfe=      5
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.162E-06
+Number of func eval =   5 ; nonlin iters =   1 ; precondJac eval =   1
+ iter=    0 fnrm=     0.1616296084378085E-06 nfe=      1
+ iter=    1 fnrm=     0.2746030982741797E-09 nfe=      6
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.242E-07
+Number of func eval =   6 ; nonlin iters =   1 ; precondJac eval =   0
+ iter=    0 fnrm=     0.2416584465789784E-07 nfe=      1
+ iter=    1 fnrm=     0.7142313401964054E-11 nfe=      6
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.363E-08
+Number of func eval =   6 ; nonlin iters =   1 ; precondJac eval =   0
+ iter=    0 fnrm=     0.3629736641087353E-08 nfe=      1
+ iter=    1 fnrm=     0.3185563134131064E-12 nfe=      7
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.545E-09
+Number of func eval =   7 ; nonlin iters =   1 ; precondJac eval =   0
+ iter=    0 fnrm=     0.5452973552003460E-09 nfe=      1
+ iter=    1 fnrm=     0.7901676590256046E-13 nfe=      7
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.819E-10
+Number of func eval =   7 ; nonlin iters =   1 ; precondJac eval =   0
+  
+*** Number time-step changes = 41  and dt = 0.108E+00 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.8191972890503948E-10 nfe=      1
+  Updating Jacobian, npe =                      2
+ iter=    1 fnrm=     0.7036264861370495E-13 nfe=      7
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.405E-11
+Number of func eval =   7 ; nonlin iters =   1 ; precondJac eval =   1
+ iter=    0 fnrm=     0.4050964448308585E-11 nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   2 ; initial fnrm = 0.405E-11
+Number of func eval =   1 ; nonlin iters =   0 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4055025766877216E-11 nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   3 ; initial fnrm = 0.406E-11
+Number of func eval =   1 ; nonlin iters =   0 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4061769664204445E-11 nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   4 ; initial fnrm = 0.406E-11
+Number of func eval =   1 ; nonlin iters =   0 ; precondJac eval =   0
+ iter=    0 fnrm=     0.4071274023646706E-11 nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   5 ; initial fnrm = 0.407E-11
+Number of func eval =   1 ; nonlin iters =   0 ; precondJac eval =   0
+  
+*** Number time-step changes = 42  and dt = 0.219E+00 sec
+ ----------------------------------------------------
+  Updating Jacobian, npe =                      1
+ iter=    0 fnrm=     0.4083412456834758E-11 nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1
+Step number at this dtreal =   1 ; initial fnrm = 0.408E-11
+Number of func eval =   1 ; nonlin iters =   0 ; precondJac eval =   0
+  
+ **************************************************
+ ***  SUCCESS: frnm < ftol and dt_tot = t_stop  ***
+ **************************************************
+Total time = 0.1000E+01; Timestep = 0.219E+00; yl(ipt) = 0.181E-01; ipt =   1
+  
+ iter=    0 fnrm=     0.4098221609673863E-11 nfe=      1
+
+
+ nksol ---  iterm = 1.
+            maxnorm(sf*f(u)) .le. ftol, where maxnorm() is
+            the maximum norm function.  u is probably an
+            approximate root of f.
+ Interpolants created; mype =                   -1

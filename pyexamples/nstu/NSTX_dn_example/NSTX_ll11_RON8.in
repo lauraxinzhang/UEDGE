@@ -1,0 +1,734 @@
+character*16 probname="138767"
+character*16 runname="NSTX_ll11_RON8"
+character*5 machine="nstx"
+
+#--------------------------------------------------------------------------
+# Input file for NSTX run 138767
+# double-null grid
+# Feb. 2013
+#--------------------------------------------------------------------------
+
+package flx;package grd;package bbb
+
+#--------------------------------------------------------------------------
+# make the double-null grid
+#--------------------------------------------------------------------------
+# The following files should be present when executing this script:
+#	a???.???
+#	g???.???
+#	rdmesh.dnull.top
+#	rdmesh.dnull.bot
+#	plate.nstx_top
+#	plate.nstx_bot
+
+# The following steps generate a mesh that includes both x-points:
+#	1) read the eqdsk to identify x-points and separatrices
+#	2) specify the radial distribution of flux surfaces
+#	3) construct the mesh for the upper half of the configuration
+#	4) construct the mesh for the lower half of the configuration
+#	5) combine the two halves of the mesh
+#	6) define guard cells at the divertor target plates
+#	7) compute magnetic field values for each cell
+#	8) write out the gridue file
+
+# NOTE: the guard cells at the radial boundaries are not defined by
+# the above procedure; that is done by the bbb package as part of the
+# exmain command.
+
+# NOTE: must generate bottom-half mesh last in order to get 
+# normal-orientation eqdsk data in call to subroutine magnetics
+# before writing the final 'gridue' file.
+
+####################################################################
+### STEP 1: read the eqdsk to identify x-points and separatrices ###
+####################################################################
+
+# mesh construction --
+!rm -f aeqdsk neqdsk
+!rm -f flx-grd
+!cp lrdfit_data/a138767.00700_000 aeqdsk
+!cp lrdfit_data/g138767.00700_000 neqdsk
+
+	mhdgeo=1
+# Read eqdsks to identify x-points
+	geometry="dnull"
+	call readefit
+
+# Input factor to ensure that psi0sep is slightly outside of LCFS
+	psifac=1.0001
+
+# Set normalized separatrix flux values
+	psi0sep1=psifac*(sibdry1-simagx)/(sibdry-simagx)
+	psi0sep2=psifac*(sibdry2-simagx)/(sibdry-simagx)
+
+# NOTE: If psi0sep1 < psi0sep2, then lower divertor is primary, so dRsep < 0.
+#       If psi0sep1 > psi0sep2, then upper divertor is primary, so dRsep > 0.
+
+# NOTE: sibdry is the un-normalized flux at the last closed flux surface (LCFS)
+
+## Diagnostic plots of the two separatrices and limiter surface:
+## plot ylim xlim style=dashed scale=equal labels=blank
+## plotz (fold-simagx)/(sibdry-simagx) xold yold lev=[psi0sep1,psi0sep2]
+##             a) global view:
+## frame .9 2.5 0 3.2
+##             b) zoom in on lower divertor
+## frame .9 1.9 0 1
+##             c) zoom in on upper divertor
+## frame .9 1.9 2.2 3.2
+##             d) zoom in on outboard midplane
+## frame 2.26 2.36 zmagx-.05 zmagx+.05
+
+################################################################
+### STEP 2: specify the radial distribution of flux surfaces ###
+################################################################
+
+# Input number of cells in each radial region
+	nycore(1)=4	# closed flux surfaces
+	nysol(1)= 10	# open to one divertor only; =0 for balanced dnull
+	nyout(1)= 5	# open to both divertors
+
+# Input flux boundary values
+#	psi0min1=0.9		# must be less than 1.00
+#	psi0max_outer=1.1	# must be greater than max(psi0sep1,psi0sep2)
+#	psi0max_inner=1.0402	# must be greater than max(psi0sep1,psi0sep2)
+#	psi0min2_lower=.992	# must be less than psi0sep1
+#	psi0min2_upper=1.03	# must be less than psi0sep2
+#	psi0max=psi0max_outer	# don't change this line
+
+	psi0min1=0.95		# must be less than 1.00
+	psi0max_outer=1.07	# must be greater than max(psi0sep1,psi0sep2)
+	psi0max_inner=1.05	# must be greater than max(psi0sep1,psi0sep2)
+	psi0min2_lower=.992	# must be less than psi0sep1
+	psi0min2_upper=1.02	# must be less than psi0sep2
+	psi0max=psi0max_outer	# don't change this line
+
+if (psi0max_outer .lt. max(psi0sep1,psi0sep2)) then
+   remark(" ")
+   remark("   *** INPUT ERROR: psi0max_outer less than max(psi0sep1,psi0sep2)")
+   psi0max_outer,psi0sep1,psi0sep2
+   remark(" ")
+   call kaboom(0)
+endif
+if (psi0max_inner .lt. max(psi0sep1,psi0sep2)) then
+   remark(" ")
+   remark("   *** INPUT ERROR: psi0max_inner less than max(psi0sep1,psi0sep2)")
+   psi0max_inner,psi0sep1,psi0sep2
+   remark(" ")
+   call kaboom(0)
+endif
+if (psi0min2_lower .ge. psi0sep1) then
+   remark(" ")
+   remark("   *** INPUT ERROR: psi0min2_lower greater than psi0sep1")
+   psi0min2_lower,psi0sep1
+   remark(" ")
+   call kaboom(0)
+endif
+if (psi0min2_upper .ge. psi0sep2) then
+   remark(" ")
+   remark("   *** INPUT ERROR: psi0min2_upper greater than psi0sep2")
+   psi0min2_upper,psi0sep2
+   remark(" ")
+   call kaboom(0)
+endif
+
+# For balanced (but up/down asymmetric) double null configuration
+# (OK if psi0sep1,2 are not too different and radial mesh is not too fine):
+	if (nysol(1)==0) then
+		psi0sep1=max(psi0sep1,psi0sep2)
+		psi0sep2=psi0sep1
+	endif
+
+# Shape factors for radial mesh
+	slp2fac=1.0	# =1 for uniform mesh between separatrices
+			# <1 concentrates mesh near primary separatrix
+	slp3fac=1.3	# =1 for uniform mesh between separatrices
+			# <1 concentrates mesh near secondary separatrix
+
+# Option for radial mesh construction
+	kymesh=0	# user-specified flux contour values for radial mesh
+
+# Set dimensions for flx package arrays
+	nym=nycore(1)+nysol(1)+nyout(1)
+	jdim=2*nym+3
+	call allot("flx.psitop",0)
+	call allot("flx.psibot",0)
+	call gallot("flx.Workdn", 0)
+
+# Compute flux contour values:
+integer j1,j2,j3,j4,js
+real8 t(0:nym)=iota(0:nym)
+real8 t1,t2,t3,t4,ts,r1,r2,r3,r4,rs,r2p,r3p,rsp
+j1=0
+t1=j1
+j2=j1+nycore(1)
+t2=j2
+j3=j2+nysol(1)
+t3=j3
+j4=j3+nyout(1)
+t4=j4
+
+
+# First, psi0_mp_outer:
+r1=psi0min1
+r2=min(psi0sep1,psi0sep2)
+r3=max(psi0sep1,psi0sep2)
+r4=psi0max_outer
+if (t3 .gt. t2) then	# use 3-region model for unbalanced dnull
+   call rho3dn(t,&psi0_mp_outer,nym,t1,t2,t3,t4,r1,r2,r3,r4,\
+                                         slp2fac,slp3fac,&r2p,&r3p)
+else			# use 2-region model for balanced dnull
+   r2p=slp2fac*(r2-r1)/(t2-t1)
+   call rho5(t,&psi0_mp_outer,nym,t1,t2,t4,r1,r2,r4,r2p)
+   r3p=r2p
+endif
+
+# Next, psi0_mp_inner:
+psi0_mp_inner(0:j3)=psi0_mp_outer(0:j3)
+r4=psi0max_inner
+call rho1l(&t(j3),&psi0_mp_inner(j3),j4-j3,t3,t4,r3,r4,r3p)
+
+# Next, psi0_dp_upper_outer:
+if (psi0sep1 .lt. psi0sep2) then	# lower divertor is primary
+   js=j3
+   rs=r3
+   rsp=r3p
+   ts=t3
+else					# upper divertor is primary
+   js=j2
+   rs=r2
+   rsp=r2p
+   ts=t2
+endif
+psi0_dp_upper_outer(js:j4)=psi0_mp_outer(js:j4)
+r1=psi0min2_upper
+call rho1r(t,&psi0_dp_upper_outer,js-j1,t1,ts,r1,rs,rsp)
+
+# Next, psi0_dp_upper_inner:
+psi0_dp_upper_inner(j1:js)=psi0_dp_upper_outer(j1:js)
+psi0_dp_upper_inner(js:j4)=psi0_mp_inner(js:j4)
+
+# Next, psi0_dp_lower_outer:
+if (psi0sep1 .lt. psi0sep2) then	# lower divertor is primary
+   js=j2
+   rs=r2
+   rsp=r2p
+   ts=t2
+else					# upper divertor is primary
+   js=j3
+   rs=r3
+   rsp=r3p
+   ts=t3
+endif
+psi0_dp_lower_outer(js:j4)=psi0_mp_outer(js:j4)
+r1=psi0min2_lower
+call rho1r(t,&psi0_dp_lower_outer,js-j1,t1,ts,r1,rs,rsp)
+
+# Next, psi0_dp_lower_inner:
+psi0_dp_lower_inner(j1:js)=psi0_dp_lower_outer(j1:js)
+psi0_dp_lower_inner(js:j4)=psi0_mp_inner(js:j4)
+
+## Diagnostic plot of radial distribution of flux surfaces at outboard midplane
+## plot ylim xlim style=dashed scale=equal labels=blank
+## plotz (fold-simagx)/(sibdry-simagx) xold yold lev=psi0_mp_outer
+## frame 2.26 2.36 zmagx-.05 zmagx+.05
+
+# flux contour search parameters:
+	istchkon=1
+	altsearch=2
+	dtheta_exclude	  = [.25,.25]*pi
+	dtheta_overlap_pf = [.05,.01]*pi
+	dtheta_overlap_sol = [.15,.15]*pi
+
+#echo=oldecho
+
+##########################################################################
+### STEP 3: construct the mesh for the upper half of the configuration ###
+##########################################################################
+
+# inputs for x-mesh:
+	nxleg(1,) = [3,3]
+	nxcore(1,)= [6,6]
+	kxmesh=1
+# mesh refinement near x-point
+	slpxt=1.15
+	nxxpt=2;nxmod=3;nsmoothx=3;alfxptu=.5;alfxptl=1.5
+
+# make mesh non-orthogonal
+#ismmon=3;istream=0;iplate=1;nsmooth=3;wtmesh1=0.0;dmix0=0.5
+ismmon=3;istream=0;iplate=1;nsmooth=3;wtmesh1=.75;dmix0=1.
+
+read rdmesh.dnull.top
+grdrun
+
+# save mesh in temporary arrays:
+nxmu=nxm
+nymu=nym
+call gchange("grd.Dnull_temp",0)
+rmu=rm
+zmu=zm
+ixpt1u=ixpt1
+ixtopu=ixtop
+ixpt2u=ixpt2
+iysptrxu=iysptrx1
+
+##########################################################################
+### STEP 4: construct the mesh for the lower half of the configuration ###
+##########################################################################
+
+# inputs for x-mesh:
+	nxleg(1,) = [3,3]
+	nxcore(1,)= [8,10]
+	kxmesh=1
+# mesh refinement near x-point
+	slpxt=1.25
+	nxxpt=3;nxmod=3;nsmoothx=6;alfxptu=.3;alfxptl=1.5
+
+# make mesh non-orthogonal
+
+##ismmon=3;istream=0;iplate=1;nsmooth=3;wtmesh1=0.0;dmix0=1.
+ismmon=3;istream=0;iplate=1;nsmooth=8;wtmesh1=.75;dmix0=1.
+
+read rdmesh.dnull.bot
+isztest=[0,2]
+zstrike(2)=.175
+
+grdrun
+
+# save mesh in temporary arrays:
+nxmb=nxm
+nymb=nym
+call gchange("grd.Dnull_temp",0)
+rmb=rm
+zmb=zm
+ixpt1b=ixpt1
+ixtopb=ixtop
+ixpt2b=ixpt2
+iysptrxb=iysptrx1
+
+##################################################
+### STEP 5: combine the two halves of the mesh ###
+##################################################
+
+geometry="dnull"
+
+# allocate space for full double null mesh data
+nxpt=2
+call gchange("com.Xpoint_indices",0)
+nxm=nxmb+nxmu-2
+nym=nymb
+call gchange("com.RZ_grid_info",0)
+
+# set separatrix indices (poloidal indices are set below in map subroutines)
+if (psi0sep1 .lt. psi0sep2) then
+   iysptrx1(1) = nycore(igrid)
+   iysptrx2(1) = nycore(igrid) + nysol(igrid)
+else
+   iysptrx1(1) = nycore(igrid) + nysol(igrid)
+   iysptrx2(1) = nycore(igrid)
+endif
+iysptrx1(2) = iysptrx2(1)
+iysptrx2(2) = iysptrx1(1)
+
+# NOTE: must map bottom half first, then top half, to get indexing correct:
+
+# map dnbot data onto full mesh
+call mapdnbot
+# map dntop data onto full mesh
+call mapdntop
+
+# ensure that upper & lower mesh exactly coincide at the midplane
+
+integer iy,jx
+real8 ravg,zavg
+do jx=1,nxpt
+  do iy=1,nym
+    ravg = 0.5*( rm(ixmdp(jx),iy,2) + rm(ixmdp(jx)+1,iy,1) )
+    zavg = 0.5*( zm(ixmdp(jx),iy,2) + zm(ixmdp(jx)+1,iy,1) )
+    rm(ixmdp(jx)  ,iy,2) = ravg
+    rm(ixmdp(jx)+1,iy,1) = ravg
+    zm(ixmdp(jx)  ,iy,2) = zavg
+    zm(ixmdp(jx)+1,iy,1) = zavg
+    ravg = 0.5*( rm(ixmdp(jx),iy,4) + rm(ixmdp(jx)+1,iy,3) )
+    zavg = 0.5*( zm(ixmdp(jx),iy,4) + zm(ixmdp(jx)+1,iy,3) )
+    rm(ixmdp(jx)  ,iy,4) = ravg
+    rm(ixmdp(jx)+1,iy,3) = ravg
+    zm(ixmdp(jx)  ,iy,4) = zavg
+    zm(ixmdp(jx)+1,iy,3) = zavg
+  enddo
+enddo
+
+################################################################
+### STEP 6: define guard cells at the divertor target plates ###
+################################################################
+
+# construct guard cells at target plates
+call add_guardc_tp
+
+###########################################################
+### STEP 7: compute magnetic field values for each cell ###
+###########################################################
+
+# get magnetics data
+call magnetics(0,nxm+1,1,nym)
+
+#########################################
+### STEP 8: write out the gridue file ###
+#########################################
+
+# write out gridue file
+call writednf ("gridue", runid)
+
+gengrid=0
+
+#--------------------------------------------------------------------------
+# finished with DN grid; continue with remaining input parameters.
+#--------------------------------------------------------------------------
+
+# Finite-difference algorithms (upwind, central diff, etc.)
+	methn = 33		#ion continuty eqn
+	methu = 33		#ion parallel momentum eqn
+	methe = 33		#electron energy eqn
+	methi = 33		#ion energy eqn
+	methg = 66		#neutral gas continuity eqn
+
+# allocate space for save variables
+	allocate
+
+# Boundary conditions
+
+	iflcore = 1		#flag; =0, fixed Te,i; =1, fixed power on core
+	pcoree = 1.5e6		#core elec power if iflcore=1
+	pcorei = 1.5e6		#core ion  power if iflcore=1
+	isnicore(1) = 3		#=3 sets flux to curcore - fngy*recycc
+	curcore(1)=64.0
+
+	double offset=1.8e-2
+
+	isnwcono = 3		#=3 for (1/n)dn/dy = 1/lyni
+	isnwconi = 3		# switch for private-flux wall
+	lyni(1) = 0.05		# PF density radial scale length
+	lyni(2) = 0.02    	# outer wall density rad scale length (m)
+	isnwcono(1)=1
+	nwallo=3.5e18 		# to become closer to 2.0e18
+	
+	istepfc = 3		# =3 for (1/Te)dTe/dy=1/lyte on pf wall
+	istipfc = 3		# =3 ditto for Ti on pf wall
+	istewc = 1		# =3 ditto for Te on vessel wall
+	istiwc = 1		# =3 ditto for Ti on vessel wall
+	lyte(1) = 0.05		# scale length for Te PF bc
+	lyti(1) = 0.05		# scale length for Ti PF bc
+	lyte(2) = 0.05		# scale length for Te wall bc
+	lyti(2) = 0.05		# scale length for Ti wall bc
+	tedge = 2.		# fixed wall,pf Te,i if istewc=1, etc.
+	tewallo= 10.
+	tiwallo= 15.
+	
+	isupcore = 1		#=1 sets d(up)/dy=0
+        isplflxl = 1		#=0 for no flux limit (te & ti) at plate
+ 	isngcore(1)=0		#zero local density flux (if albedoc=1)
+
+# boundary conditions for neutrals:
+	nwsor=2			# number of source regions on each wall
+	issorlb(1:3)=1		# measure source positions from left plate
+	# at HFS outer wall --
+	jxsoro(1)=1
+	igaso(1)=0.		# no puff at outer boundary
+        xgaso(1)=0.
+        wgaso(1)=1000.
+	albdso(1)=1.
+	matwso(1)=1		# material wall b.c. is ON
+	# at LFS outer wall --
+	jxsoro(2)=2
+	igaso(2)=0.		# no puff at outer boundary
+        xgaso(2)=0.
+        wgaso(2)=1000.
+	albdso(2)=1.
+	matwso(2)=1		# material wall b.c. is ON
+
+	# at lower PF wall --
+	jxsori(1)=1
+        xgasi(1)=0.0
+        wgasi(1)=1000.
+	igasi(1)=0.		# no puff at inner boundary
+	albdsi(1)=1.		# neutral pumping on inner boundary
+	matwsi(1)=1		# material wall b.c. is ON
+	# at upper PF wall --
+	jxsori(2)=2
+        xgasi(2)=0.0
+        wgasi(2)=1000.
+	igasi(2)=0.		# no puff at inner boundary
+	albdsi(2)=1.		# neutral pumping on inner boundary
+	matwsi(2)=1		# material wall b.c. is ON
+
+	recycw(1) = 0.5
+
+	recycp(1) = .95	# deuterium recycling coeff. at plates
+
+# Centerstack gas puff
+	nwsor = 3
+	jxsoro(3) = 1		# gas source on inside outer wall
+	igaso(3) = 500.   	# amps (as if neutral has charge e)
+				# of injected neutrals at inner wall source
+	xgaso(3) = 1.5	  	# position (in m) of source
+	wgaso(3) = .2		# width (in m) of source
+
+	albdso(3) = albdso(1)
+	jxsori(3) = 1; albdsi(3) = albdsi(1)
+
+# Transport coefficients
+	travis(1) = 1.		#eta_a for radial ion momentum diffusion
+	difutm = 1.		#toroidal diffusivity for potential
+	# see special dif,kye,i_use settings below.
+
+# Flux limits
+	flalfe = .21		#electron parallel thermal conduct. coeff
+	flalfi = .21		#ion parallel thermal conduct. coeff
+	flalfv = .5		#ion parallel viscosity coeff
+	flalfgx = 1.		#neut. gas in poloidal direction
+	flalfgy = 1.		#neut. gas in radial direction
+	flalfgxy= 1.
+	flalftgx = 1.		#limit x thermal transport
+	flalftgy = 1.		#limit y thermal transport
+	lgmax = .05		#maximum scale-length for gas diffusion
+	lgtmax = .1
+
+# Solver package
+	svrpkg = "nksol"	#Newton solver using Krylov method
+	premeth = "ilut"	#Solution method for precond. Jacobian matrix
+	mfnksol = 3
+	nurlx = 1.e7
+
+# Atomic Physics
+	istabon =  10		#10=>Stotler tables
+	isrecmon = 1		#=1 for recombination
+
+# Parallel neutral momentum equation
+        isupgon(1)=1		#=1 for "inertial" neutrals adding upg eqn
+        if (isupgon(1) == 0) then
+          ngsp = 1
+          isngon(1) = 1
+	  cngflox=1.;cngfloy=1. #drift with ions on if isupgon=0
+	  cngmom(1) = 1.	#ion-gas momentum transfer (diffusive only)
+	  cmwall(1) = 1.	#mom. wall loss coeff. (diffusive only)
+        elseif (isupgon(1) == 1) then
+          isngon(1)=0
+          ngsp=1
+          nhsp=2
+          ziin(nhsp)=0
+	  recycm = -.5 		# sets upg=-recycm*up at divertor plates,
+				# e.g., if recycm=-1., neutral flow is 
+				# effectively coupled to the ion flow.
+				# diffusion allows neutral flux away from
+				# plates.
+	  cngflox=0.;cngfloy=1. #y-drift w/ ions on if isupgon=1
+	  cngmom=0
+	  cmwall=0
+	  cngtgx=0
+	  cngtgy=0
+	  kxn=0
+	  kyn=0
+	  cfbgt=0
+	  cfloxiplt = 1.	# neutrals enter domain with ion
+				# thermal energy (default)
+        endif
+
+# Neutral gas properties
+        ingb = 2                # exponent for background gas
+        ngbackg = 1.e13         # background gas level (1/m**3)
+	rtg2ti(1) = 1.
+	ineudif = 2
+
+
+# Impurity gas
+
+  ngsp = 3
+  
+#IMPURITY
+
+  isimpon=6			# use force balance
+  
+  nzsp(1)=6  			# NUMBER OF IMPURITY SPECIES FOR CARBON
+  nzsp(2)=3  			# NUMBER OF IMPURITY SPECIES FOR LITHIUM
+
+
+#CARBON
+  isngon(2) = 1			# turns on impurity gas
+  n0g(2) = 1.e17
+  isupgon(2) = 0		# impurity gas is diffusive
+  recycp(2) = 1.e-10		# recycling of impurity species
+  recycw(2) = 1.e-10		# recycling at wall, do not set =0!
+  ngbackg(2)=1.e10		# background density for impurity gas
+
+
+#LITHIUM
+  isngon(3) = 1			# turn on impurity gas evolution
+  n0g(3) = 1.e17		# density normalization
+  isupgon(3) = 0		# impurity gas is diffusive
+  recycp(3) = 1.e-10		# plate recycling of impurity
+  recycw(3) = 1.e-10		# plate recycling of impurity
+  ngbackg(3) = 1.e10		# background density for impurity gas
+
+# Carbon ion species
+  nzsor = 1			# number of wall source zones for impurity
+  allocate			# allocate space for source arrays,
+				# and also ni and up for impurity species.
+  minu(nhsp+1:nhsp+6) = 12.  	# mass in AMU
+  ziin(nhsp+1:nhsp+6) = iota(6)	# charge of each impurity species
+  znuclin(1:nhsp) = 1		# nuclear charge 
+  znuclin(nhsp+1:nhsp+6) = 6	# nuclear charge of impurities
+  nzbackg=1.e10			# background density for impurities
+  n0(nhsp+1:nhsp+6)=1.e17	# global density normalization
+  inzb=2			# parameter for implementing impurity floor
+  isbohmms=0			# Bohm BC at plates for impurities
+  isnicore(nhsp+1:nhsp+6) = 3	# =0 for core flux BC =curcore
+  				# =1 for fixed core density BC
+				# =3 constant ni on core,
+				#           total flux=curcore
+
+	isnicore(nhsp+1:nhsp+5) = 5
+	lynicore(nhsp+1:nhsp+5) = .02
+	
+	recycc(2)=0		# no core recycling of carbon gas
+
+	isnicore(nhsp+6) = 3	#=3 sets flux to curcore - fngy*recycc
+	curcore(nhsp+6)=15.0
+
+
+
+  isnwcono(nhsp+1:nhsp+6) = 3
+  isnwconi(nhsp+1:nhsp+6) = 3
+  nwimin(nhsp+1:nhsp+6) = 1.e7
+  nwomin(nhsp+1:nhsp+6) = 1.e7
+
+  rcxighg=0.0			# force charge exchange small 
+  kelighi(igsp) = 5.e-16	# sigma-v for elastic collisions
+  kelighg(igsp) = 5.e-16
+  iscxfit=2			# use reduced Maggi CX fits
+
+# Impurity source
+  iszsorlb=0			# measure from left boundary
+  wimpi=1000.			# width of impurity source zone in PF
+  impsori(1)=0.			# PF wall source strength (A)
+  wimpo=1000.			# width of impurity source zone on outer wall
+  impsoro(1)=0.			# outer wall source strength (A)
+  ivolcur=0.0			# volume source (A) for EACH charge species
+  zwni=1000.			# width for volume source
+  rwni=1000.			# width for volume source
+  difni(nhsp+1:nhsp+6)=0.2	# impurity radial diffusivity (m^2/s)
+  vcony(nhsp+1:nhsp+6)=-20.0	# impurity convective velocity (m/s) 
+
+# Impurity data files
+	ismctab = 2		# =1 use multi charge tables from INEL
+  				# =2 Use multi charge tables from Strahl
+	nzdf=2			
+	mcfilename = ["b2frates_C", "b2frates_Li_v4"]
+	isrtndep=1
+
+# Sputtering	
+  isch_sput(2)=7;isph_sput(2)=3	# Haasz/Davis sputtering model
+  t_wall=300
+  t_plat=600
+  crmb=minu(1)			# set mass of bombarding particles
+  
+  real8 fhaasz=0.4
+  fchemylb=fhaasz;fchemyrb=fhaasz
+  fphysylb=fhaasz;fphysyrb=fhaasz
+  fphysylb(1)=0.05
+  fchemylb(1)=0.05
+  fhaasz=0.0001
+  fchemywi=fhaasz;fchemywo=fhaasz
+
+#LITHIUM 
+	
+# Lithium ion species
+	minu(nhsp+7:nhsp+9) = 7.	# mass in AMU
+	ziin(nhsp+7:nhsp+9) = iota(3)  	# charge of each impurity species
+	znuclin(nhsp+7:nhsp+9) = 3	# nuclear charge of impurities
+	n0(nhsp+7:nhsp+9) = 1.e17	# global density normalization
+
+	isnicore(nhsp+7:nhsp+9) = 5
+	lynicore(nhsp+7:nhsp+9) = .02
+	isnicore(nhsp+9) = 3
+	curcore(nhsp+9) = 2.08e-2
+
+
+	recycc(3)=0		# no core recycling of carbon gas
+
+	isnwcono(nhsp+7:nhsp+9) = 3
+	isnwconi(nhsp+7:nhsp+9) = 3
+	nwimin(nhsp+7:nhsp+9) = 1.e7
+	nwomin(nhsp+7:nhsp+9) = 1.e7	
+
+
+# Impurity sources
+
+	difni(nhsp+7:nhsp+9)= 0.6
+	vcony(nhsp+7:nhsp+9) =-10.0	# impurity inward pinch vel. (m/s)
+	
+#Lithium sputtering#
+
+	isch_sput(3) = 0
+	isph_sput(3) = 0	
+	sputtrb(,3,1)=1.e-8
+	sputtlb(,3,1)=1.e-2  
+	sputtrb(,3,2)=1.25e-2  # this is to be used
+	sputtlb(,3,2)=1.e-8
+
+
+# Symmetric differencing of momentum equations near x-points:
+	isnfmiy = 1
+
+# Restart from a pfb savefile
+	restart = 1		# Begin from savefile
+
+	if (restart==1) restore rsfiles/NSTX_ll11_RON8.rs
+
+#------------------------------------------------------------------------
+# initialize problem
+#------------------------------------------------------------------------
+issfon=0;ftol=1.e20;exmain
+gengrid=0
+
+#------------------------------------------------------------------------
+# radially-variable diffusivities in core:
+#------------------------------------------------------------------------
+   # special kyi in core:
+	double kyi0,kyi1,kyi2
+	kyi = 0.
+	kyi0 = 6.0
+	kyi1 = 2.5
+	kyi2 = 5.0
+	#it was 5, 5, 5 this was a OK solution
+	kyi_use = kyi2
+   # special kye in core:
+	double kye0,kye1,kye2
+	kye = 0.
+	kye0 = 2.5
+	kye1 = 3.5
+	kye2 = 50.0 #bring it down to 75
+	kye_use = kye2
+   # special difni in core:
+        double dif0, dif1, dif2
+	difni(1) = 0.
+        dif0 = .5
+	dif1 = .5
+	dif2 = 1.4
+	dif_use(,,1) = dif2
+   # special impurity convy in core:
+        double vel0, vel1, vel2
+	vcony(nhsp+6)=0.0
+        vel0 = -10.0
+	vel1 = -25.0
+	vel2 = -25.0
+	vy_use(,,nhsp+6) = vel2
+   # special impurity convy in core:	
+        double vell0, vell1, vell2
+	vcony(nhsp+9)=0.0
+        vell0 = -1.0
+	vell1 = -10.0
+	vell2 = -10.0
+	vy_use(,,nhsp+9) = vell2
+read rdiff_31_fs_vmod_okli
+
+issfon=0;ftol=1.e20;exmain
+newgeo=0

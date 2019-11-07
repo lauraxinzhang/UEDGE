@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "runcase.py", line 28, in <module>
+    execfile("rd_nstu_in.py")
+  File "rd_nstu_in.py", line 137, in <module>
+    bbb.bgbackg = 1.e13
+bbbpy.error: no such attribute

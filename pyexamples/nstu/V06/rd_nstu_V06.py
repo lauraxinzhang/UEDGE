@@ -21,11 +21,11 @@ flx.psi0min2 = 0.9		#normalized flux on pf bndry
 flx.psi0sep = 1.00001	        #normalized flux at separatrix
 flx.psi0max = 1.22		#normalized flux on outer wall bndry
 bbb.ngrid = 1		        #number of mesh sequenc. (always set to 1)
-com.nxleg[0,0]  = 10		#pol. mesh pts from inner plate to x-point
-com.nxcore[0,0] = 10		#pol. mesh pts from x-point to top on inside
-com.nxcore[0,1] = 10		#pol. mesh pts from top to x-point on outside
-com.nxleg[0,1]  = 10		#pol. mesh pts from x-point to outer plate
-com.nysol[0]    = 5		#rad. mesh pts in SOL
+com.nxleg[0,0]  = 25		#pol. mesh pts from inner plate to x-point
+com.nxcore[0,0] = 25		#pol. mesh pts from x-point to top on inside
+com.nxcore[0,1] = 25		#pol. mesh pts from top to x-point on outside
+com.nxleg[0,1]  = 25		#pol. mesh pts from x-point to outer plate
+com.nysol[0]    = 12		#rad. mesh pts in SOL
 com.nycore[0]   = 5		#rad. mesh pts in core
 
 # Finite-difference algorithms (upwind, central diff, etc.)
@@ -33,7 +33,7 @@ bbb.methn = 33		#ion continuty eqn
 bbb.methu = 33		#ion parallel momentum eqn
 bbb.methe = 33		#electron energy eqn
 bbb.methi = 33		#ion energy eqn
-bbb.methg = 66		#neutral gas continuity eqn
+bbb.methg = 33		#neutral gas continuity eqn
 
 # Core Boundary conditions
 bbb.iflcore = 1         # power boundary condition
@@ -119,17 +119,14 @@ bbb.albdsi[2] = bbb.albdsi[0]
 
 
 # Parallel neutral momentum equation
-bbb.isupgon[0] = 1
-bbb.isngon[0] = 0
+bbb.isupgon[0] = 0
 #bbb.ngsp = 1
-#bbb.nhsp = 2
-bbb.ziin[1]=0
-
+bbb.isngon[0] = 1
 bbb.cngflox = 1.
 bbb.cngfloy = 1.
-bbb.cngmom[0] = 0
-bbb.cmwall[0] = 0
-bbb.isnion[0] = 1
+bbb.cngmom[0] = 1.
+bbb.cmwall[0] = 1.
+
 
 # Neutral Gas Properties
 bbb.ingb = 2
@@ -161,13 +158,13 @@ lgtmax = 0.1            #maximum scale-length for thermal diffusion
 
 # Solver package
 bbb.svrpkg = "nksol"	#Newton solver using Krylov method
-bbb.premeth = "ilut"	#Solution method for precond. Jacobian matrix
-bbb.mfnksol = 3
-nurlx = 1.e7
+bbb.premeth = "banded"	#Solution method for precond. Jacobian matrix
+#bbb.mfnksol = 3
+#nurlx = 1.e7
 
 
 # Restart from a HDF5 or PDB savefile
-bbb.restart = 0	    #Begin from savefile, not estimated profiles
+bbb.restart = 1	    #Begin from savefile, not estimated profiles
 #bbb.allocate()      #allocates storage for arrays
 
 

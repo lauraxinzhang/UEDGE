@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "runcase.py", line 32, in <module>
+    bbb.restart=0; bbb.ftol=1e10; bbb.dtreal = 1e-6; bbb.exmain()
+RuntimeError

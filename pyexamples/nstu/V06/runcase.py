@@ -25,7 +25,7 @@ plt.ion()
 
 
 #-read UEDGE settings
-execfile("rd_nstu_in.py")
+execfile("rd_nstu_V06.py")
 
 
 #-do a quick preliminary run to set all internals
@@ -48,6 +48,21 @@ bbb.dtreal=1e20; bbb.isbcwdt=0; bbb.exmain()
 #-show some results
 #plotvar(bbb.te/bbb.ev)
 #wait = raw_input("PAUSING, PRESS ENTER TO CONTINUE...")
+
+#-show some results
+savedir = './'
+ext = '.pdf'
+limiter = '../' + 'NSTX_limiter.dat'
+
+plotvar(bbb.te/bbb.ev, savedir + 'te' + ext, False, title = "Electron Temperature (eV)", limiter = limiter)
+#wait = raw_input("press enter")
+plotvar(bbb.ti/bbb.ev, savedir + 'ti' + ext, False, title = "Ion Temperature (eV)", limiter = limiter)
+#wait = raw_input("press enter")
+plotvar(bbb.ne, savedir + 'ne' + ext, False, title = r"Electron Density ($m^{-3}$)", limiter = limiter)
+plotvar(bbb.up, savedir + 'up' + ext, False, title = "Fluid Velocity (m/s)", limiter = limiter)
+plotvar(bbb.phi, savedir + 'phi' + ext, False, title = "Potential (V)",limiter = limiter)
+plotvar(bbb.ng, savedir + 'ng'+ext, False, title = r'Neutral Density ($m^{-3})$', limiter =limiter)
+
 
 #-export the solution in hdf5 file
 hdf5_save('nstu_V06.h5')

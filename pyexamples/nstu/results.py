@@ -30,27 +30,30 @@ execfile("rd_nstu_in.py")
 
 #-do a quick preliminary run to set all internals
 bbb.restart=0; bbb.ftol=1e10; bbb.dtreal = 1e-6; bbb.exmain()
+#bbb.allocate()
+hdf5_restore('nstu_V05.h5')
 
 #-show grid
-#plotmesh(iso=1)
+plotmesh(iso=1)
 #wait = raw_input("PAUSING, PRESS ENTER TO CONTINUE...")
-
-
-#-run to steady state
-bbb.restart=1; bbb.ftol=1e-10; 
-bbb.isbcwdt=1
-bbb.dtreal = 1e-14; bbb.itermx=100; bbb.exmain()
-bbb.t_stop=1e2
-bbb.rundt()
-bbb.dtreal=1e20; bbb.isbcwdt=0; bbb.exmain()
-
 
 #-show some results
-#plotvar(bbb.te/bbb.ev)
-#wait = raw_input("PAUSING, PRESS ENTER TO CONTINUE...")
+savedir = './'
+ext = '.pdf'
+limiter = savedir + 'NSTX_limiter.dat'
+
+plotvar(bbb.te/bbb.ev, savedir + 'te' + ext, title = "Electron Temperature (eV)", limiter = limiter)
+#wait = raw_input("press enter")
+plotvar(bbb.ti/bbb.ev, savedir + 'ti' + ext, title = "Ion Temperature (eV)", limiter = limiter)
+#wait = raw_input("press enter")
+plotvar(bbb.ne, savedir + 'ne' + ext, title = r"Electron Density ($m^{-3}$)", limiter = limiter)
+plotvar(bbb.up, savedir + 'up' + ext, title = "Fluid Velocity (m/s)", limiter = limiter)
+plotvar(bbb.phi, savedir + 'phi' + ext, title = "Potential (V)",limiter = limiter)
+plotvar(bbb.ng, savedir + 'ng'+ext, title = r'Neutral Density ($m^{-3})$', limiter =limiter)
+wait = raw_input("PAUSING, PRESS ENTER TO CONTINUE...")
 
 #-export the solution in hdf5 file
-hdf5_save('nstu_V06.h5')
+hdf5_save('mycase.h5')
 
 #-can be imported with this command
 #hdf5_restore('mycase.h5')

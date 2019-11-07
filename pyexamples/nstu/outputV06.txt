@@ -1,0 +1,9 @@
+Forthon edition
+ 
+***  alfcy has been re-defined  ***
+ 
+ 
+*** error in subroutine orthogrd
+ UEDGE $Name: V7_08_03 $                                                               
+     alfcy =   2.909248E+00
+data point i=169 on contour j= 14 is not assigned to a spline segment
