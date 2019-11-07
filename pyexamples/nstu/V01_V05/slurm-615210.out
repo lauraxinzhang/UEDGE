@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "runcase.py", line 28, in <module>
+    execfile("rd_nstu_in.py")
+  File "rd_nstu_in.py", line 127, in <module>
+    ziin[nhsp-1]=0
+NameError: name 'ziin' is not defined
