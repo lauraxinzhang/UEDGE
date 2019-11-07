@@ -27,14 +27,14 @@ from matplotlib.patches import Polygon
 from matplotlib.collections import PatchCollection
 
 
-def plotvar(var, iso=False, title="UEDGE data"):
+def plotvar(var, filename='NONE', show = False, title="UEDGE data", limiter = 'NONE'):
     
     patches = []
 
     for iy in np.arange(0,com.ny+2):
         for ix in np.arange(0,com.nx+2):
             rcol=com.rm[ix,iy,[1,2,4,3]]
-            zcol=com.zm[ix,iy,[1,2,4,3]]
+            zcol=com.zm[ix,iy,[1,2,4,3]]- com.zshift
             rcol.shape=(4,1)
             zcol.shape=(4,1)
             polygon = Polygon(np.column_stack((rcol,zcol)), True)
@@ -54,22 +54,26 @@ def plotvar(var, iso=False, title="UEDGE data"):
 
 
 
-    fig,ax = plt.subplots(1)
+    fig,ax = plt.subplots(1,figsize=(3, 5))
 
     ax.add_collection(p)
-    ax.autoscale_view()
     plt.colorbar(p)
     
     fig.suptitle(title)
     plt.xlabel('R [m]')
     plt.ylabel('Z [m]')
     plt.grid(True)
+    ax.set_aspect('equal')
+    plt.autoscale()
+    #plt.tight_layout()
+    
+    if limiter != 'NONE':
+        data = np.loadtxt(limiter)
+        plt.plot(data[:,0], data[:, 1])    
 
-    #if (iso):
-    #    plt.axes().set_aspect('equal', 'datalim')
-    #else:
-    #    plt.axes().set_aspect('auto', 'datalim')
-
-    plt.show()
+    if filename != 'NONE':
+        plt.savefig(filename)
+    if show:    
+        plt.show()
 
 #=================================================================#

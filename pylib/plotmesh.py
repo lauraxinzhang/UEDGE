@@ -1,7 +1,8 @@
 # Plotting UEDGE computational mesh
 #
 #-Expects imported modules:
-#import matplotlib.pyplot as plt; import numpy as np
+#import matplotlib.pyplot as plt
+#import numpy as np
 #
 #
 #-Usage:
@@ -28,7 +29,7 @@ def plotmesh(iso=False):
     for iy in np.arange(0,com.ny+2):
         for ix in np.arange(0,com.nx+2):
             plt.plot(com.rm[ix,iy,[1,2,4,3,1]],
-                     com.zm[ix,iy,[1,2,4,3,1]], 
+                     com.zm[ix,iy,[1,2,4,3,1]] - com.zshift, 
                      color="b")
 
 

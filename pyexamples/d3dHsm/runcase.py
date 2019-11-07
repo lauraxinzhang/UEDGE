@@ -13,13 +13,14 @@ import os
 #-import some utilities for using OS
 ###execfile(os.path.join(os.environ['HOME'], 'utils/python/osfun.py'))
 
+PYLIB = '/u/xzhang/UEDGE/pylib'
 
 #-in .bashrc: "export PYLIB=/home/umansky1/PyUEDGE/uedge/pylib"
-execfile(os.environ['PYLIB']+"/plotmesh.py")
-execfile(os.environ['PYLIB']+"/plotcontour.py")
-execfile(os.environ['PYLIB']+"/plotvar.py")
-execfile(os.environ['PYLIB']+"/paws.py")
-execfile(os.environ['PYLIB']+"/osfun.py")
+execfile(PYLIB+"/plotmesh.py")
+execfile(PYLIB+"/plotcontour.py")
+execfile(PYLIB+"/plotvar.py")
+execfile(PYLIB+"/paws.py")
+execfile(PYLIB+"/osfun.py")
 
 plt.ion()
 
