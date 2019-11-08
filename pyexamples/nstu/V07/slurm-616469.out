@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "runcase.py", line 47, in <module>
+    bbb.dtreal = 1e-14; bbb.isbcwdt=1; bbb.itermx=30; bbb.exmain()
+RuntimeError

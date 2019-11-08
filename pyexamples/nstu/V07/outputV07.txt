@@ -1,0 +1,15 @@
+Forthon edition
+New style hdf5 file
+ 
+***  alfcy has been re-defined  ***
+ 
+ 
+*** Error: nis <= 0 ***
+ UEDGE $Name: V7_08_03 $                                                               
+     alfcy =   2.909248E+00
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ Wrote file "gridue" with runid:    EFITD    01/23/2002    #204202   561ms                    
+
+ ***** Grid generation has been completed
+ Error at ix=                    0   iy=                   19  ifld=                    1

@@ -1,0 +1,6 @@
+trying to pick up from the not converged results of V06 (not working);
+Got rid of the "preliminary run", starting from V06.hdf5 file instead.
+
+With more radial mesh points inside separatrix.
+
+Crashing after changing the number of mesh points.
