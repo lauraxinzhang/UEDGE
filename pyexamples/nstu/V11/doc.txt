@@ -1,0 +1,7 @@
+Changing neutral equation method to 66 instead of 33
+^ crashes; "invalid methy"
+
+ni boundary condition to fixed core ion density
+running with 1MW ion power and 2MW electron power
+
+No gas puff
