@@ -1,0 +1,9 @@
+V08 didn't converge, but heading in the right direction
+
+Adding more radial points in core (7 doesnt look like enough)
+^can't add more. grid generator keeps crashing
+
+Changed solver package to ilut; added mfnksol & nurlx; relax BC for the first part to help convergence.
+Changed ion power to 1MW (Ti solved in V08 was way too high; should be around 50-100 eV)
+
+Maybe diffusitivities are very wrong...
