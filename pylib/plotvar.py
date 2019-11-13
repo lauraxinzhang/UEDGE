@@ -57,8 +57,14 @@ def plotvar(var, filename='NONE', show = False, title="UEDGE data", limiter = 'N
     fig,ax = plt.subplots(1,figsize=(3, 5))
 
     ax.add_collection(p)
-    plt.colorbar(p)
+    # plt.colorbar(p)
     
+    if 'ng' in filename:
+        plt.colorbar(p, extend = 'max')
+        p.set_clim(0, 1.e18)
+    else:
+        plt.colorbar(p) 
+
     fig.suptitle(title)
     plt.xlabel('R [m]')
     plt.ylabel('Z [m]')

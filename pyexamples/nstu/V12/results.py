@@ -25,13 +25,13 @@ plt.ion()
 
 
 #-read UEDGE settings
-execfile("rd_nstu_V08.py")
+execfile("rd_nstu_V12.py")
 
 
 #-do a quick preliminary run to set all internals
-bbb.restart=0; bbb.ftol=1e10; bbb.dtreal = 1e-6; bbb.exmain()
+#bbb.restart=0; bbb.ftol=1e10; bbb.dtreal = 1e-6; bbb.exmain()
 #bbb.allocate()
-hdf5_restore('nstu_V08.h5')
+hdf5_restore('nstu_V12.h5')
 
 #-show grid
 plotmesh(iso=1)

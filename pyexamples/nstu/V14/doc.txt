@@ -1,0 +1,5 @@
+ftol back to 1E-10 in runcase.py
+Centerstack gas puffing
+
+power I = power e = 2MW
+changed chiI and chiE to 12 instead of 5
