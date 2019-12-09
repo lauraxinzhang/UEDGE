@@ -23,11 +23,18 @@ execfile(PYLIB+"/osfun.py")
 
 plt.ion()
 
+execfile('rd_nstu_V15.py')
+
 bbb.mhdgeo = 1
 bbb.gengrid = 0
 bbb.allocate()
 
+bbb.restart = 1
 hdf5_restore("nstu_V15.h5")
+
+bbb.dtreal=1e20
+bbb.exmain()
+
 
 #-show grid
 plotmesh(iso=1)
@@ -38,14 +45,14 @@ savedir = './'
 ext = '_reloaded.pdf'
 limiter = savedir + '../NSTX_limiter.dat'
 
-plotvar(bbb.tes/bbb.ev, savedir + 'te' + ext, title = "Electron Temperature (eV)", limiter = limiter)
+plotvar(bbb.te/bbb.ev, savedir + 'te' + ext, title = "Electron Temperature (eV)", limiter = limiter)
 #wait = raw_input("press enter")
-plotvar(bbb.tis/bbb.ev, savedir + 'ti' + ext, title = "Ion Temperature (eV)", limiter = limiter)
+plotvar(bbb.ti/bbb.ev, savedir + 'ti' + ext, title = "Ion Temperature (eV)", limiter = limiter)
 #wait = raw_input("press enter")
-plotvar(bbb.nes, savedir + 'ne' + ext, title = r"Electron Density ($m^{-3}$)", limiter = limiter)
-plotvar(bbb.ups, savedir + 'up' + ext, title = "Fluid Velocity (m/s)", limiter = limiter)
-plotvar(bbb.phis, savedir + 'phi' + ext, title = "Potential (V)",limiter = limiter)
-plotvar(bbb.ngs, savedir + 'ng'+ext, title = r'Neutral Density ($m^{-3})$', limiter =limiter)
+plotvar(bbb.ne, savedir + 'ne' + ext, title = r"Electron Density ($m^{-3}$)", limiter = limiter)
+plotvar(bbb.up, savedir + 'up' + ext, title = "Fluid Velocity (m/s)", limiter = limiter)
+plotvar(bbb.phi, savedir + 'phi' + ext, title = "Potential (V)",limiter = limiter)
+plotvar(bbb.ng, savedir + 'ng'+ext, title = r'Neutral Density ($m^{-3})$', limiter =limiter)
 wait = raw_input("PAUSING, PRESS ENTER TO CONTINUE...")
 
 #-export the solution in hdf5 file

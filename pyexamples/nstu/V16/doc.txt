@@ -1,0 +1,6 @@
+ftol back to 1E-10 in runcase.py
+Centerstack gas puffing - 57,000A of gas according to experiment????
+
+power I = power e = 1MW
+changed chiE to 14, chiI to 16 (as transp says)
+diff = 0.74

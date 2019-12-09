@@ -25,7 +25,7 @@ plt.ion()
 
 
 #-read UEDGE settings
-execfile("rd_nstu_V08.py")
+execfile("rd_nstu_V14.py")
 
 
 #-do a quick preliminary run to set all internals
